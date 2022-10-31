@@ -1,0 +1,280 @@
+# Schedule {-}
+
+---
+
+## January 9 - 13 {- #week-01}
+
+### Tuesday, January 10 {-}
+
+- Introduction to the course
+
+### Thursday, January 12 {-}
+
+- How science works (or should)
+- Read
+    - [@Ritchie2020-fm], Chapter 1.
+    - [@sagan-1996-baloney]
+    - [[@Feynman1974-ld]](https://calteches.library.caltech.edu/51/2/CargoCult.htm)
+
+---
+
+## January 16 - 20 {- #week-02}
+
+### Tuesday, January 17 {-}
+
+- Scientific norms and counter-norms
+- Read
+    - Merton, R.K. (1973). The normative structure of science. In *The Sociology of Science: Theoretical and Empirical Investigations*.
+    - [[@Mitroff1974-pp]](https://doi.org/10.2307/2094423).
+- Do
+    - Complete (anonymous) [survey](https://forms.gle/1zqzfNNXWyCgiDSJ9) on scientific norms and counter-norms.
+
+### Thursday, January 19 {-}
+
+- Adherence to norms and counter-norms
+- Read
+    - [[@Kardash2012-kq]](https://doi.org/10.1007/s11251-011-9195-0).
+    - [[@Macfarlane2008-tc]](https://doi.org/10.1007/s10805-008-9055-y).
+- Skim
+    - [[@Anderson2010-rl]](Anderson2010-rl).
+    - [[@Kim2018-tr]](https://doi.org/10.1177/0971721817744438).
+
+---
+
+## January 23 - 27 {- #week-03}
+
+### Tuesday, January 24 {-}
+
+- Topic
+    - Replication crisis
+- Read
+    - [@Ritchie2020-fm], Chapter 2.
+
+### Thursday, January 26 {-}
+
+- Topic
+    - The "Lady Macbeth Effect" replication challenges
+- Read
+    - [[@Zhong2006-nf]](http://dx.doi.org/10.1126/science.1130726)
+    - [[@Earp2014-ek]](https://doi.org/10.1080/01973533.2013.856792)
+
+---
+
+## January 30 - February 3 {- #week-04}
+
+### Tuesday, January 31 {-}
+
+- Topic
+    - Power posing replication challenges
+- Read
+    - [[@Carney2010-gq]](http://dx.doi.org/10.1177/0956797610383437)
+    - [[@Ranehill2015-dj]](http://dx.doi.org/10.1177/0956797614553946)
+- Watch
+    - [[@Cuddy2012-zx]](https://www.ted.com/talks/amy_cuddy_your_body_language_may_shape_who_you_are)
+
+### Thursday, February 2 {-}
+
+- Topic
+    - Priming effect replication challenges
+- Read
+    - [[@Bargh1996-yv]](http://dx.doi.org/10.1037//0022-3514.71.2.230)
+    - [[@Doyen2012-ib]](http://dx.doi.org/10.1371/journal.pone.0029081)
+
+---
+
+## February 6 - 10 {- #week-05}
+
+### Tuesday, February 7 {-}
+
+- Topic
+    - Reproducibility and replicability reconsidered
+- Read
+    - [[@baker_1500_2016]](https://doi.org/10.1038/533452a)
+    - [[@goodman_what_2016]](https://doi.org/10.1126/scitranslmed.aaf5027)
+- Skim
+    - [[@Fidler2021-xn]](https://plato.stanford.edu/archives/sum2021/entries/scientific-reproducibility/)
+
+### Thursday, February 9 {-}
+
+- Topic
+    - Fraud & misconduct
+- Read
+    - [@Ritchie2020-fm], Chapter 3
+
+---
+
+## February 13 - 17 {- #week-06}
+
+### Tuesday, February 14 {-}
+
+- Topic
+    - Fraud & misconduct
+- Read
+    - [[@Bhattacharjee2013-rw]](https://www.nytimes.com/2013/04/28/magazine/diederik-stapels-audacious-academic-fraud.html)
+    - [[@Levelt2012-ap]](https://pure.mpg.de/rest/items/item_1569964/component/file_1569966/content)
+    - [[@Carpenter2012-ot]](https://www.science.org/content/article/harvard-psychology-researcher-committed-fraud-us-investigation-concludes)
+   
+### Thursday, February 16 {-}
+
+- Topic
+    - Retraction Watch/U.S. Office of Research Integrity (ORI)
+- Read
+    - [[@Brainerd2018-iy]](https://doi.org/10.1126/science.aav8384)
+- Explore
+    - <https://retractionwatch.com/>
+    - <https://ori.hhs.gov/>
+
+---
+
+## February 20 - 24 {- #week-07}
+
+### Tuesday, February 21 {-}
+
+- Topic
+    - Bias
+- Read
+    - [@Ritchie2020-fm], Chapter 4
+    
+### Thursday, February 23 {-}
+
+- Topic
+    - File drawer effect
+- Read
+    - [[@Rosenthal1979-zi]](https://doi.org/10.1037/0033-2909.86.3.638)
+    - [[@Franco2014-yu]](http://dx.doi.org/10.1126/science.1255484)
+
+---
+    
+## February 27 - March 3 {- #week-08}
+
+### Tuesday, February 28 {-}
+
+- Topic
+    - Negligence
+- Read
+    - [@Ritchie2020-fm], Chapter 5
+    - [[@Nuijten2015-ul]](https://doi.org/10.3758/s13428-015-0664-2)
+    - [[@Szucs2017-fc]](http://dx.doi.org/10.1371/journal.pbio.2000797)
+    
+
+### Thursday, March 2 {-}
+
+- Topic
+    - Hype
+- Read
+    - [@Ritchie2020-fm], Chapter 6
+
+---
+
+## March 6-10 {- #spring-break}
+
+**NO CLASS**
+    
+---
+
+## March 13 - 17 {- #week-09}
+
+#### Tuesday, March 14 {-}
+
+- Topic
+    - Solutions
+- Read
+    - [[@munafo_manifesto_2017]](https://doi.org/10.1038/s41562-016-0021)
+
+### Thursday, March 16 {-}
+
+- Topic
+    - Solutions: Changing journal policies
+- Read
+    - [[@nosek_promoting_2015]](https://doi.org/10.1126/science.aab2374)
+    - 
+
+---
+
+## March 20 - 24 {- #week-10}
+
+### Tuesday, March 21 {-}
+
+- Topic
+    - Large-scale replication studies
+- Read
+    - [[@collaboration_estimating_2015]](https://doi.org/10.1126/science.aac4716)
+    - [[@Camerer2018-tr]](https://doi.org/10.1038/s41562-018-0399-z)
+
+### Thursday, March 23 {-}
+
+- Topic
+    - Meta-analysis
+    - Many analysts
+- Read
+    - [[@Wilson2014-ol]](https://www.psychologicalscience.org/observer/introduction-to-meta-analysis-a-guide-for-the-novice)
+    - [[@Silberzahn2018-st]](https://doi.org/10.1177/2515245917747646)
+
+---
+
+## March 27 - 31 {- #week-11}
+
+### Tuesday, March 28 {-}
+
+- Topic
+    - Preregistration
+- Read
+    - 
+
+### Thursday, March 30 {-}
+
+- Topic
+    - Data sharing
+- Read
+
+
+---
+
+## April 3 - 7 {- #week-12}
+
+### Tuesday, April 4 {-}
+
+- Topic
+    - Materials, code, & protocol sharing
+- Read
+    - [[@Soska2021-mh]](http://dx.doi.org/10.7191/jeslib.2021.1208)
+    
+
+### Thursday, April 6 {-}
+
+---
+
+## April 10 - 14 {- #week-13}
+
+### Tuesday, April 11 {-}
+
+### Thursday, April 13 {-}
+
+---
+
+## April 17 - 21 {- #week-14}
+
+### Tuesday, April 18 {-}
+
+### Thursday, April 20 {-}
+
+---
+
+## April 24 - 28 {- #week-15}
+
+### Tuesday, April 25 {-}
+
+- Project presentations
+
+
+### Thursday, April 27 {-}
+
+- Project presentations
+
+---
+    
+## May 1-5 {- #finals-week}
+
+### Wednesday, May 3
+
+- Project write-ups due 5:00 PM.

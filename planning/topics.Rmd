@@ -1,0 +1,117 @@
+# Topic planning
+
+## Other resources
+
+-   Spring 2020 grad course: <https://github.com/psu-psychology/psy-525-reproducible-research-2020>
+-   R Bootcamps
+    -   2019: <https://github.com/psu-psychology/r-bootcamp-2019>
+    -   2018: <https://github.com/psu-psychology/r-bootcamp-2018>
+    -   2017: <https://github.com/psu-psychology/r-bootcamp>
+-   PSU Libraries
+-   Journal Editors Discussion Interface ([JEDI](https://dpjedi.org))
+-   Google search for 'open science curricula'
+    -   <https://www.fosteropenscience.eu/content/open-science-training-handbook>
+    -   <https://www.osc.uni-muenchen.de/toolbox/resources_for_teaching/index.html>
+    -   [Framework for Open and Reproducible Research Training](https://forrt.org)
+    -   Healthcare Triage podcast: <https://www.healthcaretriage.info/reproducibility-podcast>
+- Monash workshop on reproducible research in R <https://monashdatafluency.github.io/r-rep-res/index.html>
+
+## Books
+
+Ritchie, S.J. (2020). *Science fictions: How fraud, bias, negligence, and hype undermine the search for truth*. Penguin Random House: London.
+
+Bausell, R.B. (2021) *The problem with science: The reproducibility crisis and what to do about it*. Oxford University Press: New York.
+
+Harris, R. (2017). *Rigor mortis: How sloppy science creates worthless cures, crushes hope, and wastes billions*. Basic Books: New York.
+
+Chambers, C. (2017). *The seven deadly sins of psychology: A manifesto for reforming the culture of scientific practice*. Princeton University Press: Princeton, NJ.
+
+## Outline
+
+### Aspirations & realities
+
+#### What is science trying to do?
+
+- Wilson, T. (2016, September 6). Richard Feynman: “The first principle is that you must not fool yourself.” Cargo-Cult Science speech, Caltech - 1974 —. Speakola. https://speakola.com/grad/richard-feynman-caltech-1974. Or listen to <https://youtu.be/yvfAtIJbatg>
+
+- Sagan, C. (1996). The Demon-Haunted World, The fine art of baloney detection, Chapter 12, 189-206.
+
+- Merton, T. (). The Sociology of Science: Theoretical and Empirical Investigations.
+
+#### Replication crisis
+
+- Begley, C. G. & Ellis, L. M. (2012). Drug development: Raise standards for preclinical cancer research. Nature, 483(7391), 531–533. https://doi.org/10.1038/483531a
+
+- Chalmers, I. & Glasziou, P. (2009). Avoidable waste in the production and reporting of research evidence. The Lancet, 374(9683), 86–89. https://doi.org/10.1016/S0140-6736(09)60329-9
+
+- Pashler, H. & Wagenmakers, E. (2012). Editors’ Introduction to the Special Section on Replicability in Psychological Science. Perspectives on Psychological Science: A Journal of the Association for Psychological Science, 7(6), 528–530. https://doi.org/10.1177/1745691612465253
+
+- Ritchie, S. (2020). Science Fictions: How Fraud, Bias, Negligence, and Hype Undermine the Search for Truth. Henry Holt and Company. https://play.google.com/store/books/details?id=rXGmyAEACAAJ. Chapter 2: The Replication Crisis.
+
+- Errington, T. M., Mathur, M., Soderberg, C. K., Denis, A., Perfito, N., Iorns, E. & Nosek, B. A. (2021). Investigating the replicability of preclinical cancer biology. eLife, 10, e71601. https://doi.org/10.7554/eLife.71601
+
+- Bargh, J. A., Chen, M. & Burrows, L. (1996). Automaticity of social behavior: direct effects of trait construct and stereotype-activation on action. Journal of Personality and Social Psychology, 71(2), 230–244. https://doi.org/10.1037//0022-3514.71.2.230
+
+- Doyen, S., Klein, O., Pichon, C.-L. & Cleeremans, A. (2012). Behavioral priming: it’s all in the mind, but whose mind? PloS One, 7(1), e29081. https://doi.org/10.1371/journal.pone.0029081
+
+- Zhong, C.-B. & Liljenquist, K. (2006). Washing away your sins: threatened morality and physical cleansing. Science, 313(5792), 1451–1452. https://doi.org/10.1126/science.1130726
+
+- Earp, B. D., Everett, J. A. C., Madva, E. N. & Hamlin, J. K. (2014). Out, Damned Spot: Can the “Macbeth Effect” Be Replicated? Basic and Applied Social Psychology, 36(1), 91–98. https://doi.org/10.1080/01973533.2013.856792
+
+- Baker, M. (2016). 1,500 scientists lift the lid on reproducibility. Nature News, 533(7604), 452. https://doi.org/10.1038/533452a
+
+#### Not a crisis
+
+- Rawat, S. (2022, June 6). There is no replication crisis in science. It’s the base rate fallacy. Big Think. https://bigthink.com/hard-science/the-replication-crisis-is-overstated/
+
+#### Findings that don't hold up
+
+
+
+#### What is reproducibility, anyway?
+
+- Fidler, F. & Wilcox, J. (2021). Reproducibility of Scientific Results. In E. N. Zalta (Ed.), The Stanford Encyclopedia of Philosophy (Summer 2021). Metaphysics Research Lab, Stanford University. https://plato.stanford.edu/archives/sum2021/entries/scientific-reproducibility/
+
+- Goodman, S. N., Fanelli, D. & Ioannidis, J. P. A. (2016). What does research reproducibility mean? Science Translational Medicine, 8(341), 341ps12–ps341ps12. https://doi.org/10.1126/scitranslmed.aaf5027
+
+### Problems
+
+#### Fraud
+
+- Stapel, Wansink
+- Others from Ritchie
+
+#### Bias
+
+#### Negligence
+
+#### Hype
+
+#### Poor planning/sample sizes
+
+- Skim or discuss conclusions from Ioannidis, J. P. A. (2005). Why most published research findings are false. Chance , 18(4), 40–47. https://doi.org/10.1080/09332480.2005.10722754
+
+#### File drawer problem
+
+### Solutions
+
+- Munafò, M. R., Nosek, B. A., Bishop, D. V. M., Button, K. S., Chambers, C. D., Sert, N. P. du, Simonsohn, U., Wagenmakers, E.-J., Ware, J. J. & Ioannidis, J. P. A. (2017). A manifesto for reproducible science. Nature Human Behaviour, 1, 0021. https://doi.org/10.1038/s41562-016-0021
+
+#### Pre-registration/registered reports
+#### Data sharing
+#### Meta-analysis
+#### Many analysts
+
+- Botvinik-Nezer, R., Holzmeister, F., Camerer, C. F., Dreber, A., Huber, J., Johannesson, M., Kirchler, M., Iwanir, R., Mumford, J. A., Adcock, R. A., Avesani, P., Baczkowski, B. M., Bajracharya, A., Bakst, L., Ball, S., Barilari, M., Bault, N., Beaton, D., Beitner, J., … Schonberg, T. (2020). Variability in the analysis of a single neuroimaging dataset by many teams. Nature, 582(7810), 84–88. https://doi.org/10.1038/s41586-020-2314-9
+
+- Silberzahn, R., Uhlmann, E. L., Martin, D. P., Anselmi, P., Aust, F., Awtrey, E., Bahník, Š., Bai, F., Bannard, C., Bonnier, E., Carlsson, R., Cheung, F., Christensen, G., Clay, R., Craig, M. A., Dalla Rosa, A., Dam, L., Evans, M. H., Flores Cervantes, I., … Nosek, B. A. (2018). Many analysts, one data set: Making transparent how variations in analytic choices affect results. Advances in Methods and Practices in Psychological Science, 1(3), 337–356. https://doi.org/10.1177/2515245917747646
+
+#### Open protocols
+
+- Soska et al., PLAY
+
+#### Version control
+
+#### Better education about statistics
+
+- https://senseaboutscienceusa.org/
