@@ -6,15 +6,20 @@
 
 ### Tuesday, January 10 {-}
 
-- Introduction to the course
+- Topic
+    - Introduction to the course
+- Read
+    - [[@Feynman1974-ld]](https://calteches.library.caltech.edu/51/2/CargoCult.htm)
+    - [@sagan-1996-baloney]
 
 ### Thursday, January 12 {-}
 
 - How science works (or should)
 - Read
     - [@Ritchie2020-fm], Chapter 1.
+    - [[@Nosek2012-al]](http://dx.doi.org/10.1080/1047840X.2012.692215)
+- Optional
     - [@sagan-1996-baloney]
-    - [[@Feynman1974-ld]](https://calteches.library.caltech.edu/51/2/CargoCult.htm)
 
 ---
 
@@ -22,9 +27,10 @@
 
 ### Tuesday, January 17 {-}
 
-- Scientific norms and counter-norms
+- Topic
+    -   Scientific norms and counter-norms
 - Read
-    - Merton, R.K. (1973). The normative structure of science. In *The Sociology of Science: Theoretical and Empirical Investigations*.
+    - [@Merton1973-vf].
     - [[@Mitroff1974-pp]](https://doi.org/10.2307/2094423).
 - Do
     - Complete (anonymous) [survey](https://forms.gle/1zqzfNNXWyCgiDSJ9) on scientific norms and counter-norms.
@@ -53,7 +59,7 @@
 ### Thursday, January 26 {-}
 
 - Topic
-    - The "Lady Macbeth Effect" replication challenges
+    - Replication: The "Lady Macbeth Effect"
 - Read
     - [[@Zhong2006-nf]](http://dx.doi.org/10.1126/science.1130726)
     - [[@Earp2014-ek]](https://doi.org/10.1080/01973533.2013.856792)
@@ -65,7 +71,7 @@
 ### Tuesday, January 31 {-}
 
 - Topic
-    - Power posing replication challenges
+    - Replication: Power posing
 - Read
     - [[@Carney2010-gq]](http://dx.doi.org/10.1177/0956797610383437)
     - [[@Ranehill2015-dj]](http://dx.doi.org/10.1177/0956797614553946)
@@ -75,7 +81,7 @@
 ### Thursday, February 2 {-}
 
 - Topic
-    - Priming effect replication challenges
+    - Replication: Priming effect
 - Read
     - [[@Bargh1996-yv]](http://dx.doi.org/10.1037//0022-3514.71.2.230)
     - [[@Doyen2012-ib]](http://dx.doi.org/10.1371/journal.pone.0029081)
@@ -187,6 +193,8 @@
     - Solutions: Changing journal policies
 - Read
     - [[@nosek_promoting_2015]](https://doi.org/10.1126/science.aab2374)
+    - [[@Gilmore2020-sl]](https://doi.org/10.1111/cdep.12360)
+    - [[@Srcd2019-hg]](https://www.srcd.org/policy-scientific-integrity-transparency-and-openness)
     - 
 
 ---
@@ -219,14 +227,18 @@
 - Topic
     - Preregistration
 - Read
-    - 
+    - [[@Nosek2018-jk]](http://dx.doi.org/10.1073/pnas.1708274114)
+    - [[@Ledgerwood2018-sn]](http://dx.doi.org/10.1073/pnas.1812592115)
+    
 
 ### Thursday, March 30 {-}
 
 - Topic
-    - Data sharing
+    - Preregistration II
 - Read
-
+    - [[@Frank2016-bv]](http://babieslearninglanguage.blogspot.com/2016/07/preregister-everything.html)
+    - [[@Goldin-Meadow2016-mc]](https://www.psychologicalscience.org/observer/why-preregistration-makes-me-nervous)
+    - [[@Claesen2021-ae]](http://dx.doi.org/10.1098/rsos.211037)
 
 ---
 
@@ -235,12 +247,19 @@
 ### Tuesday, April 4 {-}
 
 - Topic
-    - Materials, code, & protocol sharing
+    - Data sharing
 - Read
-    - [[@Soska2021-mh]](http://dx.doi.org/10.7191/jeslib.2021.1208)
-    
+    - [[@Houtkoop2018-tl]](https://doi.org/10.1177/2515245917751886)
+    - [[@Tenopir2020-mq]](http://dx.doi.org/10.1371/journal.pone.0229003)
 
 ### Thursday, April 6 {-}
+
+- Topic
+    - Data sharing II
+- Read
+    - [[@National_Institutes_of_Health_undated-it]](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html)
+    - [[@GilmoreAdolph2017]](https://doi.org/10.1038/s41562-017-0128)
+    - [[@Meyer2018-vk]](https://doi.org/10.1177/2515245917747656)
 
 ---
 
@@ -248,7 +267,16 @@
 
 ### Tuesday, April 11 {-}
 
+- Topic
+    - Materials, code, & protocol sharing
+- Read
+    - [[@Soska2021-mh]](http://dx.doi.org/10.7191/jeslib.2021.1208)
+    - [[@Gilroy2019-bf]](http://dx.doi.org/10.1007/s40614-019-00202-5)
+
 ### Thursday, April 13 {-}
+
+- Topic
+    - Open science tools
 
 ---
 
@@ -256,7 +284,13 @@
 
 ### Tuesday, April 18 {-}
 
+- Topic
+    - Open science tools II
+
 ### Thursday, April 20 {-}
+
+- Topic
+    - Project work day
 
 ---
 
@@ -264,12 +298,14 @@
 
 ### Tuesday, April 25 {-}
 
-- Project presentations
+- Topic
+    - Project presentations
 
 
 ### Thursday, April 27 {-}
 
-- Project presentations
+- Topic
+    - Project presentations
 
 ---
     
