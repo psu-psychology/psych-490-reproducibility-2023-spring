@@ -140,6 +140,8 @@
     - Bias
 - Read
     - [@Ritchie2020-fm], Chapter 4
+- Exercise
+    - [P-hack your way to scientific glory](#ex_p_hacking)
     
 ### Thursday, February 23 {-}
 
@@ -161,7 +163,6 @@
     - [@Ritchie2020-fm], Chapter 5
     - [[@Nuijten2015-ul]](https://doi.org/10.3758/s13428-015-0664-2)
     - [[@Szucs2017-fc]](http://dx.doi.org/10.1371/journal.pbio.2000797)
-    
 
 ### Thursday, March 2 {-}
 

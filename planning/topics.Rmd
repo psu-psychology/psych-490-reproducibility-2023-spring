@@ -115,3 +115,15 @@ Chambers, C. (2017). *The seven deadly sins of psychology: A manifesto for refor
 #### Better education about statistics
 
 - https://senseaboutscienceusa.org/
+
+
+## Student projects
+
+- Tutorial/how-to for an open science resource.
+- Curate a set of readings or videos for future students in a course on open science.
+- Analysis of data from the Retraction Watch database, NIH Office of Research Integrity, or...
+- Analysis of the published literature:
+    - How often do papers replicate prior findings?
+    - How "reproducible" are published methods?
+    - How often do authors share data? materials? analysis code?
+    - Are the measures collected clear?

@@ -1,0 +1,34 @@
+---
+title: "My research report"
+subtitle: "PSYCH 490 Spring 2023"
+author: "Excellent Student"
+date: "`r Sys.Date()`"
+output: html_document
+bibliography: [../bib/packages.bib, ../bib/psu-repro.bib]
+biblio-style: "apa-like"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Purpose
+
+> Describe the purpose or aims of this report. Delete these instructions before you submit your report.
+
+## Methods
+
+> Describe the methods or steps used to address the aims of the report. Delete these instructions before you submit your report.
+
+## Results
+
+> Describe the findings or results. Delete these instructions before you submit your report.
+
+## Conclusions
+
+> Summarize your conclusions. Delete these instructions before you submit your report.
+
+## Resources/References
+
+> List any references you cited or resources you used. Delete these instructions before you submit your report.
+

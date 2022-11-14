@@ -15,6 +15,8 @@ github-repo: "psu-psychology/psych-490-reproducibility-2023-spring"
 url: 'https\://psu-psychology.github.io/psych-490-reproducibility-2023-spring/'
 ---
 
+# (PART) Syllabus {-}
+
 # About the course {-}
 
 Much attention has focused on the reproducibility of research in psychology, but the challenges of producing robust and reliable knowledge extend to all scientific disciplines. In this seminar, we will discuss whether there is or is not a reproducibility crisis in psychology and in science more broadly. We will discuss how initiatives to make scientific research more open and transparent can also make it more reproducible and robust.

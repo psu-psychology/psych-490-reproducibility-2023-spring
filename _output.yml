@@ -18,6 +18,8 @@ bookdown::gitbook:
       vk: false
       whatsapp: false
       all: ['github']
+    fontsettings:
+      size: 3
 
 bookdown::pdf_book:
   includes:
