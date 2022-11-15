@@ -1,0 +1,86 @@
+# Alpha, Power, Effect Sizes, & Sample Size {#ex_apes -}
+
+## Acknowledgment {-}
+
+## Goals {-}
+
+This exercise aims to to build your understanding about the relationship between alpha $\alpha$ and its close cousin [statistical significance](https://forrt.org/glossary/statistical-significance/), [statistical power](https://forrt.org/glossary/statistical-power/) (1-$\beta$), effect size ($d$), and sample sizes ($n$).
+
+## Materials {-}
+
+- a computer, tablet, or smartphone with access to the internet.
+- a means of keeping brief notes (notebook or text/word processing document).
+
+## Shiny app
+
+```{r, echo = FALSE, cache=FALSE}
+shiny::shinyAppDir("shiny/apes",
+  options = list(width = "100%", height = 700)
+)
+```
+
+## Background {-}
+
+In the ideal world, we want large samples so that we can be confident that when we find differences between A and B that those differences are not due to chance.
+In the real world, there are always trade-offs between the size of the samples we can collect and our ability to avoid making mistakes about what's true and what's not.
+
+One way to think about those trade-offs is to think about our situation this way:
+
+Some "fact" about the world can either be true or false, and our *data analysis* tells us that the fact is either true or false.
+We want to be right as often as possible.
+That means having a way of deciding something's true when it actually *is* true and deciding when something's false when it actually *is* false.
+Both are important.
+
+We also want to avoid being wrong.
+We don't want to decide something's true when it's not.
+That's a *false positive*.
+We also don't want to decide something's false when actually it's true.
+That's called a *false negative*.
+We want to minimize both.
+
+To avoid false positives, we decide how often we are willing to be wrong in that way and set a criterion accordingly.
+The alpha ($\alpha$) or criterion reflects that choice.
+It's a probability, so it's between 0 and 1.
+Since we want the fraction of the time we make false negative decisions to be small, $\alpha$ is also usually small; $\alpha = 0.05$ is conventional.
+
+To avoid false negatives, we set another probability value, called beta ($\beta$).
+Beta is the proportion of times we're willing to conclude a true fact is actually false; $\beta = 0.20$ or 1 time out of five is conventional.
+But what data folks usually focus on is $1-\beta$[^1] or *statistical power*.
+This number tells us the proportion of times we expect to *detect* a true effect when it's actually there.
+Detecting the truth is a scientific superpower, don't you think?
+Maybe that's why it's called *power*.
+
+Analysts who are planning a study have two other decisions to make: How big a sample should they collect, and how sensitive is their test?
+The answer to how big a sample should always be large, but how large?
+The answer is, of course, called $n$.
+How sensitive is the test can be asked this way: What's the smallest difference I want to be able to detect--assuming I'm interested in the difference between condition A and condition B?
+That difference between conditions is called the *effect size* because it might represent the *effect* of some intervention.
+If we think effect sizes with respect to the standard normal (bell-curve-shaped) distribution with mean ($\mu$) 0 and standard deviation ($\sigma$) 1, we can specify it in terms of the number of standard deviations.
+Specified this way, the effect size is usually called $d$.
+There are other ways to talk about effect sizes, but we won't go further here.
+
+## Your analysis {-}
+
+1. When you first open the app, note that it simulates an analysis of groups A (red) and B, and that we get to control a number of parameters, including $n$, $d$, and $\alpha$. Note the statistics in the first gray box. It reports on the results of a $t$ test, comparing the difference between the means of the two groups. 
+
+- a. Interpret the results of the t test.
+- b. "CI" means confidence interval. This refers to the difference in the mean of group A and the mean of group B. In your own words, explain what the confidence interval means.
+
+2. The right hand box shows data about the statistical power ($1-\beta$ of this t-test. What is the 'power' reported. In your own words, what does this number mean?
+
+3. Having $n=75$ is a pretty large sample for many types of research in psychology, so let's see what having smaller samples does to our t-test and to our power. 
+- a. But before we do that, write down your prediction about what will happen to the t-test when we reduce the $n$ for both groups A and B to 50.
+- b. Change the $n$ for A to 50 and the $n$ for B to 50. Interpret the t-test and CI.
+- c. What happened to power? Does this mean we are more likely or less likely to detect a difference than before?
+
+4. We're simulating what happens if there is an effect size of $d=0.5$, or half a standard deviation between the means of A and B.
+- a. Change $d$ to 1.5 or larger. What happens to the histogram? What happens to our t-test and power?
+- b. Change $d$ to 0.25. What happens to the histogram? What happens to our t-test and power?
+
+5. Let's see if we can find out what size of samples we'd need to have power $1-\beta = 0.80$ to detect an effect of ($d=0.25$). Increase the sample sizes of A and B until you exceed the desired level for power. What sample size did you need?
+
+## Submit {-}
+
+Print your draft report and bring it to class with you.
+
+[^1]: Remember that probabilities are always between 0 and 1 and always sum to 1.
