@@ -1,0 +1,3 @@
+# Exercise 04: Replication {#ex_replication -}
+
+Worth 10 points -- Write-up due <date>

@@ -28,12 +28,12 @@
 ### Tuesday, January 17 {-}
 
 - Topic
-    -   Scientific norms and counter-norms
+    - Scientific norms and counter-norms
 - Read
     - [@Merton1973-vf].
     - [[@Mitroff1974-pp]](https://doi.org/10.2307/2094423).
-- Do
-    - Complete (anonymous) [survey](https://forms.gle/1zqzfNNXWyCgiDSJ9) on scientific norms and counter-norms.
+- [Assigned]{.green_assigned}
+    - Complete (anonymous) [survey](https://forms.gle/1zqzfNNXWyCgiDSJ9) on scientific norms and counter-norms. **No write-up**.
 
 ### Thursday, January 19 {-}
 
@@ -42,8 +42,10 @@
     - [[@Kardash2012-kq]](https://doi.org/10.1007/s11251-011-9195-0).
     - [[@Macfarlane2008-tc]](https://doi.org/10.1007/s10805-008-9055-y).
 - Skim
-    - [[@Anderson2010-rl]](Anderson2010-rl).
+    - [[@Anderson2010-rl]](http://dx.doi.org/10.1353/jhe.0.0095).
     - [[@Kim2018-tr]](https://doi.org/10.1177/0971721817744438).
+- [Assigned]{.green_assigned}
+    - [Exercise 01: Norms and counter-norms write-up](#ex_norms_counternorms)
 
 ---
 
@@ -63,6 +65,8 @@
 - Read
     - [[@Zhong2006-nf]](http://dx.doi.org/10.1126/science.1130726)
     - [[@Earp2014-ek]](https://doi.org/10.1080/01973533.2013.856792)
+- [Due]{.orange_due}
+    - [Exercise 01: Norms and counter-norms write-up](#ex_norms_counternorms)
 
 ---
 
@@ -119,7 +123,9 @@
     - [[@Bhattacharjee2013-rw]](https://www.nytimes.com/2013/04/28/magazine/diederik-stapels-audacious-academic-fraud.html)
     - [[@Levelt2012-ap]](https://pure.mpg.de/rest/items/item_1569964/component/file_1569966/content)
     - [[@Carpenter2012-ot]](https://www.science.org/content/article/harvard-psychology-researcher-committed-fraud-us-investigation-concludes)
-   
+- [Assigned]{.green_assigned}
+    - [Exercise 02: P-hack your way to scientific glory](#ex_p_hacking)
+
 ### Thursday, February 16 {-}
 
 - Topic
@@ -140,9 +146,9 @@
     - Bias
 - Read
     - [@Ritchie2020-fm], Chapter 4
-- Exercise
-    - [P-hack your way to scientific glory](#ex_p_hacking)
-    
+- [Due]{.orange_due}
+    - [Exercise 02: P-hack your way to scientific glory](#ex_p_hacking) write-up.
+   
 ### Thursday, February 23 {-}
 
 - Topic
@@ -151,9 +157,6 @@
     - [[@Rosenthal1979-zi]](https://doi.org/10.1037/0033-2909.86.3.638)
     - [[@Franco2014-yu]](http://dx.doi.org/10.1126/science.1255484)
     
-- Due
-    - P-hacking exercise write-up.
-
 ---
     
 ## February 27 - March 3 {- #week-08}
@@ -166,8 +169,8 @@
     - [@Ritchie2020-fm], Chapter 5
     - [[@Nuijten2015-ul]](https://doi.org/10.3758/s13428-015-0664-2)
     - [[@Szucs2017-fc]](http://dx.doi.org/10.1371/journal.pbio.2000797)
-- Exercise
-    - [Alpha, Power, Effect Sizes, & Sample Size](#ex_apes)
+- [Assigned]{.green_assigned}
+    - [Exercise 03: Alpha, Power, Effect Sizes, & Sample Size](#ex_apes)
 
 ### Thursday, March 2 {-}
 
@@ -175,6 +178,8 @@
     - Hype
 - Read
     - [@Ritchie2020-fm], Chapter 6
+- [Due]{.orange_due}
+    - [Final project](#final_project) proposal
 
 ---
 
@@ -192,6 +197,8 @@
     - Solutions
 - Read
     - [[@munafo_manifesto_2017]](https://doi.org/10.1038/s41562-016-0021)
+- [Due]{.orange_due}
+    - [Exercise 03: Alpha, Power, Effect Sizes, & Sample Size](#ex_apes) write-up
 
 ### Thursday, March 16 {-}
 
@@ -201,7 +208,6 @@
     - [[@nosek_promoting_2015]](https://doi.org/10.1126/science.aab2374)
     - [[@Gilmore2020-sl]](https://doi.org/10.1111/cdep.12360)
     - [[@Srcd2019-hg]](https://www.srcd.org/policy-scientific-integrity-transparency-and-openness)
-    - 
 
 ---
 
@@ -214,6 +220,8 @@
 - Read
     - [[@collaboration_estimating_2015]](https://doi.org/10.1126/science.aac4716)
     - [[@Camerer2018-tr]](https://doi.org/10.1038/s41562-018-0399-z)
+- [Assigned]{.green_assigned}
+    - [Exercise 04: Replication](#ex_replication)
 
 ### Thursday, March 23 {-}
 
@@ -235,8 +243,9 @@
 - Read
     - [[@Nosek2018-jk]](http://dx.doi.org/10.1073/pnas.1708274114)
     - [[@Ledgerwood2018-sn]](http://dx.doi.org/10.1073/pnas.1812592115)
+- [Due]{.orange_due}
+    - [Exercise 04: Replication](#ex_replication)
     
-
 ### Thursday, March 30 {-}
 
 - Topic
@@ -266,6 +275,8 @@
     - [[@National_Institutes_of_Health_undated-it]](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html)
     - [[@GilmoreAdolph2017]](https://doi.org/10.1038/s41562-017-0128)
     - [[@Meyer2018-vk]](https://doi.org/10.1177/2515245917747656)
+- [Assigned]{.green_assigned}
+    - [Exercise 05: Data and materials sharing](#ex_data_sharing)
 
 ---
 
@@ -283,6 +294,8 @@
 
 - Topic
     - Open science tools
+- [Due]{.orange_due}
+    - [Exercise 05: Data and materials sharing](#ex_data_sharing)
 
 ---
 
@@ -319,4 +332,5 @@
 
 ### Wednesday, May 3
 
-- Project write-ups due 5:00 PM.
+- [Due]{.orange_due}
+  - [Final project]{#final_project} write-ups due 5:00 PM.

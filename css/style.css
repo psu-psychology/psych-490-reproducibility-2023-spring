@@ -12,3 +12,11 @@ pre {
 pre code {
   white-space: inherit;
 }
+
+.green_assigned {
+  color: green;
+}
+
+.orange_due {
+  color: orange;
+}

@@ -2,7 +2,7 @@
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# The road to scientific glory {#ex_p_hacking -}
+# Exercise 02: The road to scientific glory {#ex_p_hacking -}
 
 ## Acknowledgment {-}
 

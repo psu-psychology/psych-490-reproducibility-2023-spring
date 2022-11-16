@@ -1,4 +1,4 @@
-# Alpha, Power, Effect Sizes, & Sample Size {#ex_apes -}
+# Expercise 03: Alpha, Power, Effect Sizes, & Sample Size {#ex_apes -}
 
 ## Acknowledgment {-}
 
@@ -11,7 +11,7 @@ This exercise aims to to build your understanding about the relationship between
 - a computer, tablet, or smartphone with access to the internet.
 - a means of keeping brief notes (notebook or text/word processing document).
 
-## Shiny app
+## Shiny app {-}
 
 ```{r, echo = FALSE, cache=FALSE}
 shiny::shinyAppDir("shiny/apes",
