@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Expercise 03: Alpha, Power, Effect Sizes, &amp; Sample Size | PSYCH 490.002 Spring 2023</title>
+  <title>References | PSYCH 490.002 Spring 2023</title>
   <meta name="description" content="This is the course material for PSYCH 490.002." />
   <meta name="generator" content="bookdown 0.29 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Expercise 03: Alpha, Power, Effect Sizes, &amp; Sample Size | PSYCH 490.002 Spring 2023" />
+  <meta property="og:title" content="References | PSYCH 490.002 Spring 2023" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="This is the course material for PSYCH 490.002." />
   <meta name="github-repo" content="psu-psychology/psych-490-reproducibility-2023-spring" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Expercise 03: Alpha, Power, Effect Sizes, &amp; Sample Size | PSYCH 490.002 Spring 2023" />
+  <meta name="twitter:title" content="References | PSYCH 490.002 Spring 2023" />
   
   <meta name="twitter:description" content="This is the course material for PSYCH 490.002." />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="section-ex_p_hacking.html"/>
-<link rel="next" href="section-ex_replication.html"/>
+<link rel="prev" href="section-final_project.html"/>
+
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -279,115 +279,177 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="section-ex_apes" class="section level1 unnumbered hasAnchor">
-<h1>Expercise 03: Alpha, Power, Effect Sizes, &amp; Sample Size<a href="section-ex_apes.html#section-ex_apes" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<div id="section-acknowledgment-1" class="section level2 unnumbered hasAnchor">
-<h2>Acknowledgment<a href="section-ex_apes.html#section-acknowledgment-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-</div>
-<div id="section-goals-1" class="section level2 unnumbered hasAnchor">
-<h2>Goals<a href="section-ex_apes.html#section-goals-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>This exercise aims to to build your understanding about the relationship between alpha <span class="math inline">\(\alpha\)</span> and its close cousin <a href="https://forrt.org/glossary/statistical-significance/">statistical significance</a>, <a href="https://forrt.org/glossary/statistical-power/">statistical power</a> (1-<span class="math inline">\(\beta\)</span>), effect size (<span class="math inline">\(d\)</span>), and sample sizes (<span class="math inline">\(n\)</span>).</p>
-</div>
-<div id="section-materials-1" class="section level2 unnumbered hasAnchor">
-<h2>Materials<a href="section-ex_apes.html#section-materials-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<ul>
-<li>a computer, tablet, or smartphone with access to the internet.</li>
-<li>a means of keeping brief notes (notebook or text/word processing document).</li>
-</ul>
-</div>
-<div id="section-shiny-app" class="section level2 unnumbered hasAnchor">
-<h2>Shiny app<a href="section-ex_apes.html#section-shiny-app" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-</div>
-<div id="section-background-1" class="section level2 unnumbered hasAnchor">
-<h2>Background<a href="section-ex_apes.html#section-background-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>In the ideal world, we want large samples so that we can be confident that when we find differences between A and B that those differences are not due to chance.
-In the real world, there are always trade-offs between the size of the samples we can collect and our ability to avoid making mistakes about what’s true and what’s not.</p>
-<p>One way to think about those trade-offs is to think about our situation this way:</p>
-<p>Some “fact” about the world can either be true or false, and our <em>data analysis</em> tells us that the fact is either true or false.
-We want to be right as often as possible.
-That means having a way of deciding something’s true when it actually <em>is</em> true and deciding when something’s false when it actually <em>is</em> false.
-Both are important.</p>
-<p>We also want to avoid being wrong.
-We don’t want to decide something’s true when it’s not.
-That’s a <em>false positive</em>.
-We also don’t want to decide something’s false when actually it’s true.
-That’s called a <em>false negative</em>.
-We want to minimize both.</p>
-<p>To avoid false positives, we decide how often we are willing to be wrong in that way and set a criterion accordingly.
-The alpha (<span class="math inline">\(\alpha\)</span>) or criterion reflects that choice.
-It’s a probability, so it’s between 0 and 1.
-Since we want the fraction of the time we make false negative decisions to be small, <span class="math inline">\(\alpha\)</span> is also usually small; <span class="math inline">\(\alpha = 0.05\)</span> is conventional.</p>
-<p>To avoid false negatives, we set another probability value, called beta (<span class="math inline">\(\beta\)</span>).
-Beta is the proportion of times we’re willing to conclude a true fact is actually false; <span class="math inline">\(\beta = 0.20\)</span> or 1 time out of five is conventional.
-But what data folks usually focus on is <span class="math inline">\(1-\beta\)</span><a href="section-references.html#section-fn3" class="footnote-ref" id="section-fnref3"><sup>3</sup></a> or <em>statistical power</em>.
-This number tells us the proportion of times we expect to <em>detect</em> a true effect when it’s actually there.
-Detecting the truth is a scientific superpower, don’t you think?
-Maybe that’s why it’s called <em>power</em>.</p>
-<p>Analysts who are planning a study have two other decisions to make: How big a sample should they collect, and how sensitive is their test?
-The answer to how big a sample should always be large, but how large?
-The answer is, of course, called <span class="math inline">\(n\)</span>.
-How sensitive is the test can be asked this way: What’s the smallest difference I want to be able to detect–assuming I’m interested in the difference between condition A and condition B?
-That difference between conditions is called the <em>effect size</em> because it might represent the <em>effect</em> of some intervention.
-If we think effect sizes with respect to the standard normal (bell-curve-shaped) distribution with mean (<span class="math inline">\(\mu\)</span>) 0 and standard deviation (<span class="math inline">\(\sigma\)</span>) 1, we can specify it in terms of the number of standard deviations.
-Specified this way, the effect size is usually called <span class="math inline">\(d\)</span>.
-There are other ways to talk about effect sizes, but we won’t go further here.</p>
-</div>
-<div id="section-your-analysis-1" class="section level2 unnumbered hasAnchor">
-<h2>Your analysis<a href="section-ex_apes.html#section-your-analysis-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<ol style="list-style-type: decimal">
-<li>When you first open the app, note that it simulates an analysis of groups A (red) and B, and that we get to control a number of parameters, including <span class="math inline">\(n\)</span>, <span class="math inline">\(d\)</span>, and <span class="math inline">\(\alpha\)</span>. Note the statistics in the first gray box. It reports on the results of a <span class="math inline">\(t\)</span> test, comparing the difference between the means of the two groups.</li>
-</ol>
-<ul>
-<li><ol style="list-style-type: lower-alpha">
-<li>Interpret the results of the t test.</li>
-</ol></li>
-<li><ol start="2" style="list-style-type: lower-alpha">
-<li>“CI” means confidence interval. This refers to the difference in the mean of group A and the mean of group B. In your own words, explain what the confidence interval means.</li>
-</ol></li>
-</ul>
-<ol start="2" style="list-style-type: decimal">
-<li><p>The right hand box shows data about the statistical power (<span class="math inline">\(1-\beta\)</span> of this t-test. What is the ‘power’ reported. In your own words, what does this number mean?</p></li>
-<li><p>Having <span class="math inline">\(n=75\)</span> is a pretty large sample for many types of research in psychology, so let’s see what having smaller samples does to our t-test and to our power.</p></li>
-</ol>
-<ul>
-<li><ol style="list-style-type: lower-alpha">
-<li>But before we do that, write down your prediction about what will happen to the t-test when we reduce the <span class="math inline">\(n\)</span> for both groups A and B to 50.</li>
-</ol></li>
-<li><ol start="2" style="list-style-type: lower-alpha">
-<li>Change the <span class="math inline">\(n\)</span> for A to 50 and the <span class="math inline">\(n\)</span> for B to 50. Interpret the t-test and CI.</li>
-</ol></li>
-<li><ol start="3" style="list-style-type: lower-alpha">
-<li>What happened to power? Does this mean we are more likely or less likely to detect a difference than before?</li>
-</ol></li>
-</ul>
-<ol start="4" style="list-style-type: decimal">
-<li>We’re simulating what happens if there is an effect size of <span class="math inline">\(d=0.5\)</span>, or half a standard deviation between the means of A and B.</li>
-</ol>
-<ul>
-<li><ol style="list-style-type: lower-alpha">
-<li>Change <span class="math inline">\(d\)</span> to 1.5 or larger. What happens to the histogram? What happens to our t-test and power?</li>
-</ol></li>
-<li><ol start="2" style="list-style-type: lower-alpha">
-<li>Change <span class="math inline">\(d\)</span> to 0.25. What happens to the histogram? What happens to our t-test and power?</li>
-</ol></li>
-</ul>
-<ol start="5" style="list-style-type: decimal">
-<li>Let’s see if we can find out what size of samples we’d need to have power <span class="math inline">\(1-\beta = 0.80\)</span> to detect an effect of (<span class="math inline">\(d=0.25\)</span>). Increase the sample sizes of A and B until you exceed the desired level for power. What sample size did you need?</li>
-</ol>
-</div>
-<div id="section-submit-1" class="section level2 unnumbered hasAnchor">
-<h2>Submit<a href="section-ex_apes.html#section-submit-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Print your draft report and bring it to class with you.</p>
+<div id="section-references" class="section level1 unnumbered hasAnchor">
+<h1>References<a href="section-references.html#section-references" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 
+<div id="section-refs" class="references csl-bib-body hanging-indent">
+<div id="section-ref-Anderson2010-rl" class="csl-entry">
+Anderson, Melissa S, Emily A Ronning, Raymond Devries, and Brian C Martinson. 2010. <span>“Extending the Mertonian Norms: Scientists’ Subscription to Norms of Research.”</span> <em>The Journal of Higher Education</em> 81 (3): 366–93. <a href="https://doi.org/10.1353/jhe.0.0095">https://doi.org/10.1353/jhe.0.0095</a>.
 </div>
+<div id="section-ref-baker_1500_2016" class="csl-entry">
+Baker, Monya. 2016. <span>“1,500 Scientists Lift the Lid on Reproducibility.”</span> <em>Nature News</em> 533 (7604): 452. <a href="https://doi.org/10.1038/533452a">https://doi.org/10.1038/533452a</a>.
+</div>
+<div id="section-ref-Bargh1996-yv" class="csl-entry">
+Bargh, J A, M Chen, and L Burrows. 1996. <span>“Automaticity of Social Behavior: Direct Effects of Trait Construct and Stereotype-Activation on Action.”</span> <em>Journal of Personality and Social Psychology</em> 71 (2): 230–44. <a href="https://doi.org/10.1037//0022-3514.71.2.230">https://doi.org/10.1037//0022-3514.71.2.230</a>.
+</div>
+<div id="section-ref-Bhattacharjee2013-rw" class="csl-entry">
+Bhattacharjee, Yudhijit. 2013. <span>“The Mind of a Con Man.”</span> <em>The New York Times</em>, April. <a href="https://www.nytimes.com/2013/04/28/magazine/diederik-stapels-audacious-academic-fraud.html">https://www.nytimes.com/2013/04/28/magazine/diederik-stapels-audacious-academic-fraud.html</a>.
+</div>
+<div id="section-ref-Brainerd2018-iy" class="csl-entry">
+Brainerd, Jeffrey, and Jia You. 2018. <span>“What a Massive Database of Retracted Papers Reveals about Science Publishing’s <span>‘Death Penalty’</span>.”</span> <em>Science</em>, October. <a href="https://doi.org/10.1126/science.aav8384">https://doi.org/10.1126/science.aav8384</a>.
+</div>
+<div id="section-ref-Camerer2018-tr" class="csl-entry">
+Camerer, Colin F, Anna Dreber, Felix Holzmeister, Teck-Hua Ho, Jürgen Huber, Magnus Johannesson, Michael Kirchler, et al. 2018. <span>“Evaluating the Replicability of Social Science Experiments in Nature and Science Between 2010 and 2015.”</span> <em>Nature Human Behaviour</em>, August, 1. <a href="https://doi.org/10.1038/s41562-018-0399-z">https://doi.org/10.1038/s41562-018-0399-z</a>.
+</div>
+<div id="section-ref-Carney2010-gq" class="csl-entry">
+Carney, Dana R, Amy J C Cuddy, and Andy J Yap. 2010. <span>“Power Posing: Brief Nonverbal Displays Affect Neuroendocrine Levels and Risk Tolerance.”</span> <em>Psychological Science</em> 21 (10): 1363–68. <a href="https://doi.org/10.1177/0956797610383437">https://doi.org/10.1177/0956797610383437</a>.
+</div>
+<div id="section-ref-Carpenter2012-ot" class="csl-entry">
+Carpenter, Siri. 2012. <span>“Harvard Psychology Researcher Committed Fraud, <span>U.S</span>. Investigation Concludes.”</span> <em>Science</em>. <a href="https://doi.org/10.1126/article.26972">https://doi.org/10.1126/article.26972</a>.
+</div>
+<div id="section-ref-Claesen2021-ae" class="csl-entry">
+Claesen, Aline, Sara Gomes, Francis Tuerlinckx, and Wolf Vanpaemel. 2021. <span>“Comparing Dream to Reality: An Assessment of Adherence of the First Generation of Preregistered Studies.”</span> <em>Royal Society Open Science</em> 8 (211037). <a href="https://doi.org/10.1098/rsos.211037">https://doi.org/10.1098/rsos.211037</a>.
+</div>
+<div id="section-ref-collaboration_estimating_2015" class="csl-entry">
+Collaboration, Open Science. 2015. <span>“Estimating the Reproducibility of Psychological.”</span> <em>Science</em> 349 (6251): aac4716. <a href="https://doi.org/10.1126/science.aac4716">https://doi.org/10.1126/science.aac4716</a>.
+</div>
+<div id="section-ref-Cuddy2012-zx" class="csl-entry">
+Cuddy, Amy. 2012. <span>“Your Body Language May Shape Who You Are.”</span> <a href="https://www.ted.com/talks/amy_cuddy_your_body_language_may_shape_who_you_are">https://www.ted.com/talks/amy_cuddy_your_body_language_may_shape_who_you_are</a>.
+</div>
+<div id="section-ref-Doyen2012-ib" class="csl-entry">
+Doyen, Stéphane, Olivier Klein, Cora-Lise Pichon, and Axel Cleeremans. 2012. <span>“Behavioral Priming: It’s All in the Mind, but Whose Mind?”</span> <em>PloS One</em> 7 (1): e29081. <a href="https://doi.org/10.1371/journal.pone.0029081">https://doi.org/10.1371/journal.pone.0029081</a>.
+</div>
+<div id="section-ref-Earp2014-ek" class="csl-entry">
+Earp, Brian D, Jim A C Everett, Elizabeth N Madva, and J Kiley Hamlin. 2014. <span>“Out, Damned Spot: Can the <span>‘Macbeth Effect’</span> Be Replicated?”</span> <em>Basic and Applied Social Psychology</em> 36 (1): 91–98. <a href="https://doi.org/10.1080/01973533.2013.856792">https://doi.org/10.1080/01973533.2013.856792</a>.
+</div>
+<div id="section-ref-Feynman1974-ld" class="csl-entry">
+Feynman, R P. 1974. <span>“Cargo Cult Science.”</span> <a href="https://calteches.library.caltech.edu/51/2/CargoCult.htm" class="uri">https://calteches.library.caltech.edu/51/2/CargoCult.htm</a>. <a href="https://calteches.library.caltech.edu/51/2/CargoCult.htm">https://calteches.library.caltech.edu/51/2/CargoCult.htm</a>.
+</div>
+<div id="section-ref-Fidler2021-xn" class="csl-entry">
+Fidler, Fiona, and John Wilcox. 2021. <span>“Reproducibility of Scientific Results.”</span> In <em>The Stanford Encyclopedia of Philosophy</em>, edited by Edward N Zalta, Summer 2021. Metaphysics Research Lab, Stanford University. <a href="https://plato.stanford.edu/archives/sum2021/entries/scientific-reproducibility/">https://plato.stanford.edu/archives/sum2021/entries/scientific-reproducibility/</a>.
+</div>
+<div id="section-ref-Franco2014-yu" class="csl-entry">
+Franco, Annie, Neil Malhotra, and Gabor Simonovits. 2014. <span>“Social Science. Publication Bias in the Social Sciences: Unlocking the File Drawer.”</span> <em>Science</em> 345 (6203): 1502–5. <a href="https://doi.org/10.1126/science.1255484">https://doi.org/10.1126/science.1255484</a>.
+</div>
+<div id="section-ref-Frank2016-bv" class="csl-entry">
+Frank, Michael. 2016. <span>“Preregister Everything.”</span> <a href="http://babieslearninglanguage.blogspot.com/2016/07/preregister-everything.html" class="uri">http://babieslearninglanguage.blogspot.com/2016/07/preregister-everything.html</a>. <a href="http://babieslearninglanguage.blogspot.com/2016/07/preregister-everything.html">http://babieslearninglanguage.blogspot.com/2016/07/preregister-everything.html</a>.
+</div>
+<div id="section-ref-GilmoreAdolph2017" class="csl-entry">
+Gilmore, Rick O, and Karen E Adolph. 2017. <span>“Video Can Make Behavioural Research More Reproducible.”</span> <em>Nature Human Behavior</em> 1. <a href="https://doi.org/10.1038/s41562-017-0128">https://doi.org/10.1038/s41562-017-0128</a>.
+</div>
+<div id="section-ref-Gilmore2020-sl" class="csl-entry">
+Gilmore, Rick O, Pamela M Cole, Suman Verma, Marcel A G Aken, and Carol M Worthman. 2020. <span>“Advancing Scientific Integrity, Transparency, and Openness in Child Development Research: Challenges and Possible Solutions.”</span> <em>Child Development Perspectives</em> 14 (1): 9–14. <a href="https://doi.org/10.1111/cdep.12360">https://doi.org/10.1111/cdep.12360</a>.
+</div>
+<div id="section-ref-Gilroy2019-bf" class="csl-entry">
+Gilroy, Shawn P, and Brent A Kaplan. 2019. <span>“Furthering Open Science in Behavior Analysis: An Introduction and Tutorial for Using <span>GitHub</span> in Research.”</span> <em>Perspectives on Behavior Science</em> 42 (3): 565–81. <a href="https://doi.org/10.1007/s40614-019-00202-5">https://doi.org/10.1007/s40614-019-00202-5</a>.
+</div>
+<div id="section-ref-Goldin-Meadow2016-mc" class="csl-entry">
+Goldin-Meadow, S. 2016. <span>“Why Preregistration Makes Me Nervous.”</span> <em>APS Observer</em> 29 (7). <a href="https://www.psychologicalscience.org/observer/why-preregistration-makes-me-nervous">https://www.psychologicalscience.org/observer/why-preregistration-makes-me-nervous</a>.
+</div>
+<div id="section-ref-goodman_what_2016" class="csl-entry">
+Goodman, Steven N., Daniele Fanelli, and John P. A. Ioannidis. 2016. <span>“What Does Research Reproducibility Mean?”</span> <em>Science Translational Medicine</em> 8 (341): 341ps12–12. <a href="https://doi.org/10.1126/scitranslmed.aaf5027">https://doi.org/10.1126/scitranslmed.aaf5027</a>.
+</div>
+<div id="section-ref-Houtkoop2018-tl" class="csl-entry">
+Houtkoop, Bobby Lee, Chris Chambers, Malcolm Macleod, Dorothy V M Bishop, Thomas E Nichols, and Eric-Jan Wagenmakers. 2018. <span>“Data Sharing in Psychology: A Survey on Barriers and Preconditions.”</span> <em>Advances in Methods and Practices in Psychological Science</em>, February, 2515245917751886. <a href="https://doi.org/10.1177/2515245917751886">https://doi.org/10.1177/2515245917751886</a>.
+</div>
+<div id="section-ref-Kardash2012-kq" class="csl-entry">
+Kardash, Carolanne M, and Ordene V Edwards. 2012. <span>“Thinking and Behaving Like Scientists: Perceptions of Undergraduate Science Interns and Their Faculty Mentors.”</span> <em>Instructional Science</em> 40 (6): 875–99. <a href="https://doi.org/10.1007/s11251-011-9195-0">https://doi.org/10.1007/s11251-011-9195-0</a>.
+</div>
+<div id="section-ref-Kim2018-tr" class="csl-entry">
+Kim, So Young, and Yoonhoo Kim. 2018. <span>“The Ethos of Science and Its Correlates: An Empirical Analysis of Scientists’ Endorsement of Mertonian Norms.”</span> <em>Science, Technology and Society</em> 23 (1): 1–24. <a href="https://doi.org/10.1177/0971721817744438">https://doi.org/10.1177/0971721817744438</a>.
+</div>
+<div id="section-ref-Ledgerwood2018-sn" class="csl-entry">
+Ledgerwood, Alison. 2018. <span>“The Preregistration Revolution Needs to Distinguish Between Predictions and Analyses.”</span> <em>Proceedings of the National Academy of Sciences of the United States of America</em> 115 (45): E10516–17. <a href="https://doi.org/10.1073/pnas.1812592115">https://doi.org/10.1073/pnas.1812592115</a>.
+</div>
+<div id="section-ref-Levelt2012-ap" class="csl-entry">
+Levelt, W J M, P J D Drenth, and E Noort. 2012. <span>“Flawed Science: The Fraudulent Research Practices of Social Psychologist Diederik Stapel.”</span> <a href="https://pure.mpg.de/rest/items/item_1569964/component/file_1569966/content" class="uri">https://pure.mpg.de/rest/items/item_1569964/component/file_1569966/content</a>; pure.mpg.de. <a href="https://pure.mpg.de/rest/items/item_1569964/component/file_1569966/content">https://pure.mpg.de/rest/items/item_1569964/component/file_1569966/content</a>.
+</div>
+<div id="section-ref-Macfarlane2008-tc" class="csl-entry">
+Macfarlane, Bruce, and Ming Cheng. 2008. <span>“Communism, Universalism and Disinterestedness: Re-Examining Contemporary Support Among Academics for Merton’s Scientific Norms.”</span> <em>Journal of Academic Ethics</em> 6 (1): 67–78. <a href="https://doi.org/10.1007/s10805-008-9055-y">https://doi.org/10.1007/s10805-008-9055-y</a>.
+</div>
+<div id="section-ref-Merton1973-vf" class="csl-entry">
+Merton, Robert W. 1973. <span>“The Normative Structure of Science.”</span> In <em>The Sociology of Science: Theoretical and Empirical Investigations</em>, edited by Robert K Merton and Norman W Storer, 267–78. The University of Chicago Press.
+</div>
+<div id="section-ref-Meyer2018-vk" class="csl-entry">
+Meyer, Michelle N. 2018. <span>“Practical Tips for Ethical Data Sharing.”</span> <em>Advances in Methods and Practices in Psychological Science</em>, February, 2515245917747656. <a href="https://doi.org/10.1177/2515245917747656">https://doi.org/10.1177/2515245917747656</a>.
+</div>
+<div id="section-ref-Mitroff1974-pp" class="csl-entry">
+Mitroff, Ian I. 1974. <span>“Norms and Counter-Norms in a Select Group of the Apollo Moon Scientists: A Case Study of the Ambivalence of Scientists.”</span> <em>American Sociological Review</em> 39 (4): 579–95. <a href="https://doi.org/10.2307/2094423">https://doi.org/10.2307/2094423</a>.
+</div>
+<div id="section-ref-munafo_manifesto_2017" class="csl-entry">
+Munafò, Marcus R., Brian A. Nosek, Dorothy V. M. Bishop, Katherine S. Button, Christopher D. Chambers, Nathalie Percie du Sert, Uri Simonsohn, Eric-Jan Wagenmakers, Jennifer J. Ware, and John P. A. Ioannidis. 2017. <span>“A Manifesto for Reproducible Science.”</span> <em>Nature Human Behaviour</em> 1 (January): 0021. <a href="https://doi.org/10.1038/s41562-016-0021">https://doi.org/10.1038/s41562-016-0021</a>.
+</div>
+<div id="section-ref-National_Institutes_of_Health_undated-it" class="csl-entry">
+National Institutes of Health. n.d. <span>“<span>NOT-OD-21-013</span>: Final <span>NIH</span> Policy for Data Management and Sharing.”</span> <a href="https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html" class="uri">https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html</a>. <a href="https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html">https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html</a>.
+</div>
+<div id="section-ref-nosek_promoting_2015" class="csl-entry">
+Nosek, B. A., G. Alter, G. C. Banks, D. Borsboom, S. D. Bowman, S. J. Breckler, S. Buck, et al. 2015. <span>“Promoting an Open Research Culture.”</span> <em>Science</em> 348 (6242): 1422–25. <a href="https://doi.org/10.1126/science.aab2374">https://doi.org/10.1126/science.aab2374</a>.
+</div>
+<div id="section-ref-Nosek2012-al" class="csl-entry">
+Nosek, Brian A, and Yoav Bar-Anan. 2012. <span>“Scientific Utopia i: Opening Scientific Communication.”</span> <em>Psychological Inquiry</em> 23 (3): 217–43. <a href="https://doi.org/10.1080/1047840X.2012.692215">https://doi.org/10.1080/1047840X.2012.692215</a>.
+</div>
+<div id="section-ref-Nosek2018-jk" class="csl-entry">
+Nosek, Brian A, Charles R Ebersole, Alexander C DeHaven, and David T Mellor. 2018. <span>“The Preregistration Revolution.”</span> <em>Proceedings of the National Academy of Sciences of the United States of America</em> 115 (11): 2600–2606. <a href="https://doi.org/10.1073/pnas.1708274114">https://doi.org/10.1073/pnas.1708274114</a>.
+</div>
+<div id="section-ref-Nuijten2015-ul" class="csl-entry">
+Nuijten, Michèle B, Chris H J Hartgerink, Marcel A L M van Assen, Sacha Epskamp, and Jelte M Wicherts. 2015. <span>“The Prevalence of Statistical Reporting Errors in Psychology (1985–2013).”</span> <em>Behavior Research Methods</em>, October, 1–22. <a href="https://doi.org/10.3758/s13428-015-0664-2">https://doi.org/10.3758/s13428-015-0664-2</a>.
+</div>
+<div id="section-ref-Parsons2022-rs" class="csl-entry">
+Parsons, Sam, Flávio Azevedo, Mahmoud M Elsherif, Samuel Guay, Owen N Shahim, Gisela H Govaart, Emma Norris, et al. 2022. <span>“A Community-Sourced Glossary of Open Scholarship Terms.”</span> <em>Nature Human Behaviour</em> 6 (3): 312–18. <a href="https://doi.org/10.1038/s41562-021-01269-4">https://doi.org/10.1038/s41562-021-01269-4</a>.
+</div>
+<div id="section-ref-Pownall2021-aa" class="csl-entry">
+Pownall, Madeleine, Flavio Azevedo, Sam Parsons, FORRT, Charlotte Rebecca Pennington, and Mahmoud Elsherif. 2021. <span>“Lesson Plan 5: Understanding the Replication Crisis with App Activities.pdf.”</span> <a href="http://dx.doi.org/10.17605/OSF.IO/TH254" class="uri">http://dx.doi.org/10.17605/OSF.IO/TH254</a>; OSF. <a href="https://doi.org/10.17605/OSF.IO/TH254">https://doi.org/10.17605/OSF.IO/TH254</a>.
+</div>
+<div id="section-ref-Ranehill2015-dj" class="csl-entry">
+Ranehill, Eva, Anna Dreber, Magnus Johannesson, Susanne Leiberg, Sunhae Sul, and Roberto A Weber. 2015. <span>“Assessing the Robustness of Power Posing: No Effect on Hormones and Risk Tolerance in a Large Sample of Men and Women.”</span> <em>Psychological Science</em> 26 (5): 653–56. <a href="https://doi.org/10.1177/0956797614553946">https://doi.org/10.1177/0956797614553946</a>.
+</div>
+<div id="section-ref-Ritchie2020-fm" class="csl-entry">
+Ritchie, Stuart. 2020. <em>Science Fictions: Exposing Fraud, Bias, Negligence and Hype in Science</em>. 1st ed. Penguin Random House. <a href="https://www.amazon.com/Science-Fictions/dp/1847925669">https://www.amazon.com/Science-Fictions/dp/1847925669</a>.
+</div>
+<div id="section-ref-Rosenthal1979-zi" class="csl-entry">
+Rosenthal, Robert. 1979. <span>“The File Drawer Problem and Tolerance for Null Results.”</span> <em>Psychological Bulletin</em> 86 (3): 638–41. <a href="https://doi.org/10.1037/0033-2909.86.3.638">https://doi.org/10.1037/0033-2909.86.3.638</a>.
+</div>
+<div id="section-ref-sagan-1996-baloney" class="csl-entry">
+Sagan, Carl. 1996. <em>The Demon-Haunted World: Science as a Candle in the Dark</em>. Ballantine Books.
+</div>
+<div id="section-ref-Silberzahn2018-st" class="csl-entry">
+Silberzahn, R, E L Uhlmann, D P Martin, P Anselmi, F Aust, E Awtrey, Š Bahnı́k, et al. 2018. <span>“Many Analysts, One Data Set: Making Transparent How Variations in Analytic Choices Affect Results.”</span> <em>Advances in Methods and Practices in Psychological Science</em> 1 (3): 337–56. <a href="https://doi.org/10.1177/2515245917747646">https://doi.org/10.1177/2515245917747646</a>.
+</div>
+<div id="section-ref-Soska2021-mh" class="csl-entry">
+Soska, Kasey C, Melody Xu, Sandy L Gonzalez, Orit Herzberg, Catherine S Tamis-LeMonda, Rick O Gilmore, and Karen E Adolph. 2021. <span>“(Hyper)active Data Curation: A Video Case Study from Behavioral Science.”</span> <em>Journal of Escience Librarianship</em> 10 (3). <a href="https://doi.org/10.7191/jeslib.2021.1208">https://doi.org/10.7191/jeslib.2021.1208</a>.
+</div>
+<div id="section-ref-Srcd2019-hg" class="csl-entry">
+SRCD. 2019. <span>“Policy on Scientific Integrity, Transparency, and Openness | Society for Research in Child Development <span>SRCD</span>.”</span> <a href="https://www.srcd.org/policy-scientific-integrity-transparency-and-openness" class="uri">https://www.srcd.org/policy-scientific-integrity-transparency-and-openness</a>. <a href="https://www.srcd.org/policy-scientific-integrity-transparency-and-openness">https://www.srcd.org/policy-scientific-integrity-transparency-and-openness</a>.
+</div>
+<div id="section-ref-Szucs2017-fc" class="csl-entry">
+Szucs, Denes, and John P A Ioannidis. 2017. <span>“Empirical Assessment of Published Effect Sizes and Power in the Recent Cognitive Neuroscience and Psychology Literature.”</span> <em>PLoS Biology</em> 15 (3): e2000797. <a href="https://doi.org/10.1371/journal.pbio.2000797">https://doi.org/10.1371/journal.pbio.2000797</a>.
+</div>
+<div id="section-ref-Tenopir2020-mq" class="csl-entry">
+Tenopir, Carol, Natalie M Rice, Suzie Allard, Lynn Baird, Josh Borycz, Lisa Christian, Bruce Grant, Robert Olendorf, and Robert J Sandusky. 2020. <span>“Data Sharing, Management, Use, and Reuse: Practices and Perceptions of Scientists Worldwide.”</span> <em>PloS One</em> 15 (3): e0229003. <a href="https://doi.org/10.1371/journal.pone.0229003">https://doi.org/10.1371/journal.pone.0229003</a>.
+</div>
+<div id="section-ref-Wilson2014-ol" class="csl-entry">
+Wilson, Laura C. 2014. <span>“Introduction to <span>Meta-Analysis</span>: A Guide for the Novice.”</span> <a href="https://www.psychologicalscience.org/observer/introduction-to-meta-analysis-a-guide-for-the-novice" class="uri">https://www.psychologicalscience.org/observer/introduction-to-meta-analysis-a-guide-for-the-novice</a>. <a href="https://www.psychologicalscience.org/observer/introduction-to-meta-analysis-a-guide-for-the-novice">https://www.psychologicalscience.org/observer/introduction-to-meta-analysis-a-guide-for-the-novice</a>.
+</div>
+<div id="section-ref-Zhong2006-nf" class="csl-entry">
+Zhong, Chen-Bo, and Katie Liljenquist. 2006. <span>“Washing Away Your Sins: <span>T</span>hreatened Morality and Physical Cleansing.”</span> <em>Science</em> 313 (5792): 1451–52. <a href="https://doi.org/10.1126/science.1130726">https://doi.org/10.1126/science.1130726</a>.
+</div>
+</div>
+</div>
+<div class="footnotes footnotes-end-of-document">
+<hr />
+<ol>
+<li id="section-fn1"><p>Remember that probabilities are always between 0 and 1 and always sum to 1.<a href="section-ex_p_hacking.html#section-fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="section-fn2"><p><strong>Hint</strong>: The question tested has to do with the slope of the plot in 3.<a href="section-ex_p_hacking.html#section-fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="section-fn3"><p>Remember that probabilities are always between 0 and 1 and always sum to 1.<a href="section-ex_apes.html#section-fnref3" class="footnote-back">↩︎</a></p></li>
+</ol>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="section-ex_p_hacking.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="section-ex_replication.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="section-final_project.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -418,7 +480,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/psu-psychology/psych-490-reproducibility-2023-spring/master/60-exercises-ex03-apes.Rmd",
+"link": "https://github.com/psu-psychology/psych-490-reproducibility-2023-spring/master/90-references.Rmd",
 "text": "Edit"
 },
 "history": {

@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Expercise 03: Alpha, Power, Effect Sizes, &amp; Sample Size | PSYCH 490.002 Spring 2023</title>
+  <title>Policies | PSYCH 490.002 Spring 2023</title>
   <meta name="description" content="This is the course material for PSYCH 490.002." />
   <meta name="generator" content="bookdown 0.29 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Expercise 03: Alpha, Power, Effect Sizes, &amp; Sample Size | PSYCH 490.002 Spring 2023" />
+  <meta property="og:title" content="Policies | PSYCH 490.002 Spring 2023" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="This is the course material for PSYCH 490.002." />
   <meta name="github-repo" content="psu-psychology/psych-490-reproducibility-2023-spring" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Expercise 03: Alpha, Power, Effect Sizes, &amp; Sample Size | PSYCH 490.002 Spring 2023" />
+  <meta name="twitter:title" content="Policies | PSYCH 490.002 Spring 2023" />
   
   <meta name="twitter:description" content="This is the course material for PSYCH 490.002." />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="section-ex_p_hacking.html"/>
-<link rel="next" href="section-ex_replication.html"/>
+<link rel="prev" href="section-deadlines.html"/>
+<link rel="next" href="section-principles.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -279,105 +279,84 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="section-ex_apes" class="section level1 unnumbered hasAnchor">
-<h1>Expercise 03: Alpha, Power, Effect Sizes, &amp; Sample Size<a href="section-ex_apes.html#section-ex_apes" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<div id="section-acknowledgment-1" class="section level2 unnumbered hasAnchor">
-<h2>Acknowledgment<a href="section-ex_apes.html#section-acknowledgment-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="section-policies" class="section level1 unnumbered hasAnchor">
+<h1>Policies<a href="section-policies.html#section-policies" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="section-academic-integrity" class="section level2 unnumbered hasAnchor">
+<h2>Academic Integrity<a href="section-policies.html#section-academic-integrity" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Students with questions about academic integrity should visit <a href="http://www.la.psu.edu/current-students/undergraduate-students/education/academic-integrity" class="uri">http://www.la.psu.edu/current-students/undergraduate-students/education/academic-integrity</a>.</p>
+<p>Penn State defines academic integrity as the pursuit of scholarly activity in an open, honest and responsible manner. All students should act with personal integrity, respect others dignity, rights and property, and help create and maintain an environment in which all can succeed through the fruits of their efforts (Faculty Senate Policy 49-20). Sanctions for academic misconduct can include a grade of F for the course as well as other penalties.</p>
+<p>Students are responsible for maintaining academic integrity. Violations include cheating on exams, talking to others during exams, looking at another student’s test materials or answers during an exam, removing exams from the classroom without consent from the instructor, plagiarizing (do not copy from someone else!), and dishonesty in any aspect of course participation.</p>
+<p>When you complete assignments, remember the <strong>ABC</strong>s to avoid plagiarism: <strong>A</strong>lways place copied information within quotation marks, include information about the quoted or paraphrased source in a <strong>B</strong>ibliography, and <strong>C</strong>ite the source in the body (in the text) of your paper immediately after the quoted or paraphrased information. When in doubt, cite in the text and include the source in a bibliography.</p>
 </div>
-<div id="section-goals-1" class="section level2 unnumbered hasAnchor">
-<h2>Goals<a href="section-ex_apes.html#section-goals-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>This exercise aims to to build your understanding about the relationship between alpha <span class="math inline">\(\alpha\)</span> and its close cousin <a href="https://forrt.org/glossary/statistical-significance/">statistical significance</a>, <a href="https://forrt.org/glossary/statistical-power/">statistical power</a> (1-<span class="math inline">\(\beta\)</span>), effect size (<span class="math inline">\(d\)</span>), and sample sizes (<span class="math inline">\(n\)</span>).</p>
-</div>
-<div id="section-materials-1" class="section level2 unnumbered hasAnchor">
-<h2>Materials<a href="section-ex_apes.html#section-materials-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<ul>
-<li>a computer, tablet, or smartphone with access to the internet.</li>
-<li>a means of keeping brief notes (notebook or text/word processing document).</li>
-</ul>
-</div>
-<div id="section-shiny-app" class="section level2 unnumbered hasAnchor">
-<h2>Shiny app<a href="section-ex_apes.html#section-shiny-app" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-</div>
-<div id="section-background-1" class="section level2 unnumbered hasAnchor">
-<h2>Background<a href="section-ex_apes.html#section-background-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>In the ideal world, we want large samples so that we can be confident that when we find differences between A and B that those differences are not due to chance.
-In the real world, there are always trade-offs between the size of the samples we can collect and our ability to avoid making mistakes about what’s true and what’s not.</p>
-<p>One way to think about those trade-offs is to think about our situation this way:</p>
-<p>Some “fact” about the world can either be true or false, and our <em>data analysis</em> tells us that the fact is either true or false.
-We want to be right as often as possible.
-That means having a way of deciding something’s true when it actually <em>is</em> true and deciding when something’s false when it actually <em>is</em> false.
-Both are important.</p>
-<p>We also want to avoid being wrong.
-We don’t want to decide something’s true when it’s not.
-That’s a <em>false positive</em>.
-We also don’t want to decide something’s false when actually it’s true.
-That’s called a <em>false negative</em>.
-We want to minimize both.</p>
-<p>To avoid false positives, we decide how often we are willing to be wrong in that way and set a criterion accordingly.
-The alpha (<span class="math inline">\(\alpha\)</span>) or criterion reflects that choice.
-It’s a probability, so it’s between 0 and 1.
-Since we want the fraction of the time we make false negative decisions to be small, <span class="math inline">\(\alpha\)</span> is also usually small; <span class="math inline">\(\alpha = 0.05\)</span> is conventional.</p>
-<p>To avoid false negatives, we set another probability value, called beta (<span class="math inline">\(\beta\)</span>).
-Beta is the proportion of times we’re willing to conclude a true fact is actually false; <span class="math inline">\(\beta = 0.20\)</span> or 1 time out of five is conventional.
-But what data folks usually focus on is <span class="math inline">\(1-\beta\)</span><a href="section-references.html#section-fn3" class="footnote-ref" id="section-fnref3"><sup>3</sup></a> or <em>statistical power</em>.
-This number tells us the proportion of times we expect to <em>detect</em> a true effect when it’s actually there.
-Detecting the truth is a scientific superpower, don’t you think?
-Maybe that’s why it’s called <em>power</em>.</p>
-<p>Analysts who are planning a study have two other decisions to make: How big a sample should they collect, and how sensitive is their test?
-The answer to how big a sample should always be large, but how large?
-The answer is, of course, called <span class="math inline">\(n\)</span>.
-How sensitive is the test can be asked this way: What’s the smallest difference I want to be able to detect–assuming I’m interested in the difference between condition A and condition B?
-That difference between conditions is called the <em>effect size</em> because it might represent the <em>effect</em> of some intervention.
-If we think effect sizes with respect to the standard normal (bell-curve-shaped) distribution with mean (<span class="math inline">\(\mu\)</span>) 0 and standard deviation (<span class="math inline">\(\sigma\)</span>) 1, we can specify it in terms of the number of standard deviations.
-Specified this way, the effect size is usually called <span class="math inline">\(d\)</span>.
-There are other ways to talk about effect sizes, but we won’t go further here.</p>
-</div>
-<div id="section-your-analysis-1" class="section level2 unnumbered hasAnchor">
-<h2>Your analysis<a href="section-ex_apes.html#section-your-analysis-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="section-late-missed-assignments" class="section level2 unnumbered hasAnchor">
+<h2>Late, missed or make-up assignments<a href="section-policies.html#section-late-missed-assignments" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="section-late-missed-exams" class="section level3 unnumbered hasAnchor">
+<h3>Exams<a href="section-policies.html#section-late-missed-exams" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Make-up exams may be permitted under unusual circumstances such as (a) an interview for graduate school or a job, (b) illness, (c) religious observance, (d) the death of a family member, or (e) any other event recognized by the university as a valid excuse for absence from class.</p>
+<p>If you must miss class on the day an exam is scheduled, you must do the following:</p>
 <ol style="list-style-type: decimal">
-<li>When you first open the app, note that it simulates an analysis of groups A (red) and B, and that we get to control a number of parameters, including <span class="math inline">\(n\)</span>, <span class="math inline">\(d\)</span>, and <span class="math inline">\(\alpha\)</span>. Note the statistics in the first gray box. It reports on the results of a <span class="math inline">\(t\)</span> test, comparing the difference between the means of the two groups.</li>
-</ol>
-<ul>
-<li><ol style="list-style-type: lower-alpha">
-<li>Interpret the results of the t test.</li>
-</ol></li>
-<li><ol start="2" style="list-style-type: lower-alpha">
-<li>“CI” means confidence interval. This refers to the difference in the mean of group A and the mean of group B. In your own words, explain what the confidence interval means.</li>
-</ol></li>
-</ul>
-<ol start="2" style="list-style-type: decimal">
-<li><p>The right hand box shows data about the statistical power (<span class="math inline">\(1-\beta\)</span> of this t-test. What is the ‘power’ reported. In your own words, what does this number mean?</p></li>
-<li><p>Having <span class="math inline">\(n=75\)</span> is a pretty large sample for many types of research in psychology, so let’s see what having smaller samples does to our t-test and to our power.</p></li>
-</ol>
-<ul>
-<li><ol style="list-style-type: lower-alpha">
-<li>But before we do that, write down your prediction about what will happen to the t-test when we reduce the <span class="math inline">\(n\)</span> for both groups A and B to 50.</li>
-</ol></li>
-<li><ol start="2" style="list-style-type: lower-alpha">
-<li>Change the <span class="math inline">\(n\)</span> for A to 50 and the <span class="math inline">\(n\)</span> for B to 50. Interpret the t-test and CI.</li>
-</ol></li>
-<li><ol start="3" style="list-style-type: lower-alpha">
-<li>What happened to power? Does this mean we are more likely or less likely to detect a difference than before?</li>
-</ol></li>
-</ul>
-<ol start="4" style="list-style-type: decimal">
-<li>We’re simulating what happens if there is an effect size of <span class="math inline">\(d=0.5\)</span>, or half a standard deviation between the means of A and B.</li>
-</ol>
-<ul>
-<li><ol style="list-style-type: lower-alpha">
-<li>Change <span class="math inline">\(d\)</span> to 1.5 or larger. What happens to the histogram? What happens to our t-test and power?</li>
-</ol></li>
-<li><ol start="2" style="list-style-type: lower-alpha">
-<li>Change <span class="math inline">\(d\)</span> to 0.25. What happens to the histogram? What happens to our t-test and power?</li>
-</ol></li>
-</ul>
-<ol start="5" style="list-style-type: decimal">
-<li>Let’s see if we can find out what size of samples we’d need to have power <span class="math inline">\(1-\beta = 0.80\)</span> to detect an effect of (<span class="math inline">\(d=0.25\)</span>). Increase the sample sizes of A and B until you exceed the desired level for power. What sample size did you need?</li>
+<li>Contact the TA or the instructor by telephone, email, or in person in advance of the exam. Twenty-four hours notice is expected. If you do not contact the TA or instructor in advance, it is possible that you may not be able to schedule a make-up exam.</li>
+<li>Arrange with the TA or instructor to take a make-up exam as soon as possible, but no later than one (1) week following the date of the scheduled exam. It is your responsibility, not the TA’s or the instructor’s to schedule an approved make-up exam in a timely way.</li>
 </ol>
 </div>
-<div id="section-submit-1" class="section level2 unnumbered hasAnchor">
-<h2>Submit<a href="section-ex_apes.html#section-submit-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Print your draft report and bring it to class with you.</p>
+<div id="section-late-missed-quizzes" class="section level3 unnumbered hasAnchor">
+<h3>Quizzes<a href="section-policies.html#section-late-missed-quizzes" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>No make-up quizzes will be given except under unusual circumstances.
+You may ask for a copy of the quiz for studying purposes, however.</p>
+</div>
+<div id="section-disability-accommodations" class="section level3 unnumbered hasAnchor">
+<h3>Accommodation for persons with disabilities<a href="section-policies.html#section-disability-accommodations" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Penn State welcomes students with disabilities into the University’s educational programs. Please refer to the information provided by Student Disability Resources (SDR) at <a href="http://equity.psu.edu/student-disability-resources/" class="uri">http://equity.psu.edu/student-disability-resources/</a> for information about the procedures required to obtain reasonable accommodations in this course.
+Students should discussSDR-approved accommodations with their instructor as early in the semester as possible, even if they have taken another course with the instructor.
+Please note: students are not required to provide their instructor with information about the nature of their condition.</p>
+<p>Penn State students are also welcome to contact other units for assistance with personal concerns that interfere with academic progress, including: Counseling and Psychological Services (CAPS; <a href="http://studentaffairs.psu.edu/counseling/" class="uri">http://studentaffairs.psu.edu/counseling/</a>), the Office of Student Affairs (<a href="http://studentaffairs.psu.edu/" class="uri">http://studentaffairs.psu.edu/</a>), Career Services (<a href="http://studentaffairs.psu.edu/career/" class="uri">http://studentaffairs.psu.edu/career/</a>), the Center for Women Students (<a href="http://studentaffairs.psu.edu/womenscenter/" class="uri">http://studentaffairs.psu.edu/womenscenter/</a>), the LGBTQA Student Resource Center (<a href="http://studentaffairs.psu.edu/lgbtqa/" class="uri">http://studentaffairs.psu.edu/lgbtqa/</a>), the Office of Sexual Misconduct
+Prevention and Response (<a href="http://titleix.psu.edu/" class="uri">http://titleix.psu.edu/</a>), Penn State Educational Equity (<a href="http://equity.psu.edu/" class="uri">http://equity.psu.edu/</a>), the Multicultural Resource Center (<a href="http://equity.psu.edu/mrc" class="uri">http://equity.psu.edu/mrc</a>), and University
+Health Services (<a href="http://studentaffairs.psu.edu/health/" class="uri">http://studentaffairs.psu.edu/health/</a>).</p>
+</div>
+</div>
+<div id="section-non-discrimination-statement" class="section level2 unnumbered hasAnchor">
+<h2>Nondiscrimination Statement<a href="section-policies.html#section-non-discrimination-statement" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The Pennsylvania State University is committed to equal access to programs, facilities, admission and employment for all persons.
+It is the policy of the University to maintain an environment free of harassment and free of discrimination against any person because of age, race, color, ancestry, national origin, religion, creed, service in the uniformed services (as defined in state and federal law), veteran status, sex, sexual orientation, marital or family status, pregnancy, pregnancy-related conditions, physical or mental disability, gender, perceived gender, gender identity, genetic information or political ideas.<br />
+Discriminatory conduct and harassment, as well as sexual misconduct and relationship violence, violates the dignity of individuals, impedes the realization of the University’s educational mission, and will not be tolerated.</p>
+<p>Direct all inquiries regarding the nondiscrimination policy to:</p>
+<p>Dr. Kenneth Lehrman III</br>
+Vice Provost for Affirmative Action</br>
+Affirmative Action Office</br>
+The Pennsylvania State University</br>
+328 Boucke Building</br>
+University Park, PA 16802-5901</br>
+Email: <a href="mailto:kfl2@psu.edu" class="email">kfl2@psu.edu</a></br>
+Tel (814) 863-0471</p>
+</div>
+<div id="section-diversity-statement" class="section level2 unnumbered hasAnchor">
+<h2>Diversity Statement<a href="section-policies.html#section-diversity-statement" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>This classroom is a place where you will be treated with respect.
+All members of this class are expected to contribute to a respectful, welcoming and inclusive environment for every other member of the class.<br />
+Penn State is committed to creating an educational environment which is free from intolerance directed toward individuals or groups and strives to create and maintain an environment that fosters respect for others as stated in Policy AD29 Statement on Intolerance.</p>
+</div>
+<div id="section-mandated" class="section level2 unnumbered hasAnchor">
+<h2>Mandated Reporting Statement<a href="section-policies.html#section-mandated" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Penn State’s policies require me, as a faculty member, to share information about incidents of sex-based discrimination and harassment (discrimination, harassment, sexual harassment, sexual misconduct, dating violence, domestic violence, stalking, and retaliation) with Penn State’s Title IX coordinator or deputy coordinators, regardless of whether the incidents are stated to me in person or shared by students as part of their coursework.
+For more information regarding the University’s policies and procedures for responding to reports of sexual or gender-based harassment or misconduct, please visit <a href="http://titleix.psu.edu" class="uri">http://titleix.psu.edu</a>.</p>
+<p>Additionally, I am required to make a report on any reasonable suspicion of child abuse in accordance with the Pennsylvania Child Protective Services Law.</p>
+</div>
+<div id="section-covid" class="section level2 unnumbered hasAnchor">
+<h2>COVID safety information (last updated 2021-08-12)<a href="section-policies.html#section-covid" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Please consult the Penn State Covid-19 Dashboard for updates on masking policies, instructional-mode changes, etc. <a href="https://virusinfo.psu.edu/covid-19-dashboard/" class="uri">https://virusinfo.psu.edu/covid-19-dashboard/</a>.</p>
+<p>This class will meet in-person unless there is a change in University policy.</p>
+<p>Penn State University requires everyone to wear a face mask in all university buildings, including classrooms, regardless of vaccination status. <strong>ALL STUDENTS MUST</strong> wear a mask appropriately (i.e., covering both your mouth and nose) while you are indoors on campus. This is to protect your health and safety as well as the health and safety of your classmates, instructor, and the university community. Anyone attending class without a mask will be asked to put one on or leave. Instructors may end class if anyone present refuses to appropriately wear a mask for the duration of class. Students who refuse to wear masks appropriately may face disciplinary action for Code of Conduct violations. If you feel you cannot wear a mask during class, please speak with your adviser immediately about your options for altering your schedule.</p>
+</div>
+<div id="section-zoom" class="section level2 unnumbered hasAnchor">
+<h2>Zoom<a href="section-policies.html#section-zoom" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>At some point in the semester, I may decide to use Zoom to allow students who are unable to attend class in person to participate.</p>
+<p>While you are on Zoom, keep in mind that this is a classroom environment and others should be treated with respect.
+Please keep your microphone muted unless you want to ask a question or interact with someone.
+If your microphone is not muted, the entire class will be able to hear what is going on in your environment.
+As an instructor, I personally like to see people’s faces.
+As a participant, I am more involved when I have my camera on.
+I realize, however, that there are many reasons why you might not want to turn on your camera such as poor internet connection, joining via phone, or other privacy concerns.
+It is your choice as to whether you would like to have the camera on or not.</p>
 
 </div>
 </div>
@@ -386,8 +365,8 @@ There are other ways to talk about effect sizes, but we won’t go further here.
           </div>
         </div>
       </div>
-<a href="section-ex_p_hacking.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="section-ex_replication.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="section-deadlines.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="section-principles.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -418,7 +397,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/psu-psychology/psych-490-reproducibility-2023-spring/master/60-exercises-ex03-apes.Rmd",
+"link": "https://github.com/psu-psychology/psych-490-reproducibility-2023-spring/master/40-policies.Rmd",
 "text": "Edit"
 },
 "history": {

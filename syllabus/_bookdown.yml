@@ -1,10 +1,10 @@
 book_filename: "PSYCH 490 Spring 2023"
 language:
   ui:
-    chapter_name: "Chapter "
+    chapter_name: ""
   label:
     fig: "Figure "
     tab: "Table "
 delete_merged_file: true
-output_dir: "docs"
+output_dir: "../docs"
 github-repo: "psu-psychology/psych-490-reproducibility-2023-spring"

@@ -13,7 +13,6 @@ description: |
 link-citations: yes
 github-repo: "psu-psychology/psych-490-reproducibility-2023-spring"
 url: 'https\://psu-psychology.github.io/psych-490-reproducibility-2023-spring/'
-runtime: shiny
 ---
 
 # (PART) Syllabus {-}

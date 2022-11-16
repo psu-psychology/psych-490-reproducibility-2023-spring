@@ -1,7 +1,3 @@
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 # Exercise 02: The road to scientific glory {#ex_p_hacking -}
 
 ## Acknowledgment {-}

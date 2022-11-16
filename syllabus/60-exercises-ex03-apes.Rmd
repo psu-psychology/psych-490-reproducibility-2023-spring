@@ -1,7 +1,5 @@
 # Expercise 03: Alpha, Power, Effect Sizes, & Sample Size {#ex_apes -}
 
-## Acknowledgment {-}
-
 ## Goals {-}
 
 This exercise aims to to build your understanding about the relationship between alpha $\alpha$ and its close cousin [statistical significance](https://forrt.org/glossary/statistical-significance/), [statistical power](https://forrt.org/glossary/statistical-power/) (1-$\beta$), effect size ($d$), and sample sizes ($n$).
@@ -14,9 +12,11 @@ This exercise aims to to build your understanding about the relationship between
 ## Shiny app {-}
 
 ```{r, echo = FALSE, cache=FALSE}
-shiny::shinyAppDir("shiny/apes",
-  options = list(width = "100%", height = 700)
-)
+# Shiny app not loading, so we comment this out for now.
+#
+# shiny::shinyAppDir("shiny/apes",
+#   options = list(width = "100%", height = 700)
+# )
 ```
 
 ## Background {-}
