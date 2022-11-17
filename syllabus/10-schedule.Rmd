@@ -6,11 +6,11 @@
 
 ### Tuesday, January 10 {-}
 
-- Topic
-    - Introduction to the course
+- Introduction to the course
 - Read
     - [[@Feynman1974-ld]](https://calteches.library.caltech.edu/51/2/CargoCult.htm)
-    - [@sagan-1996-baloney]
+    - [@Harris2017-oz], Chapter 1, Begley's Bombshell.
+    - Optional [[@Begley2012-cr]](http://dx.doi.org/10.1038/483531a)
 
 ### Thursday, January 12 {-}
 
@@ -18,8 +18,7 @@
 - Read
     - [@Ritchie2020-fm], Chapter 1.
     - [[@Nosek2012-al]](http://dx.doi.org/10.1080/1047840X.2012.692215)
-- Optional
-    - [@sagan-1996-baloney]
+    - (Optional) [@sagan-1996-baloney], Chapter 12, The Fine Art of Baloney Detection.
 
 ---
 
@@ -27,12 +26,11 @@
 
 ### Tuesday, January 17 {-}
 
-- Topic
-    - Scientific norms and counter-norms
+- Scientific norms and counter-norms
 - Read
     - [@Merton1973-vf].
     - [[@Mitroff1974-pp]](https://doi.org/10.2307/2094423).
-- [Assigned]{.green_assigned}
+- [Assignment]{.green_assigned}
     - Complete (anonymous) [survey](https://forms.gle/1zqzfNNXWyCgiDSJ9) on scientific norms and counter-norms. **No write-up**.
 
 ### Thursday, January 19 {-}
@@ -44,7 +42,7 @@
 - Skim
     - [[@Anderson2010-rl]](http://dx.doi.org/10.1353/jhe.0.0095).
     - [[@Kim2018-tr]](https://doi.org/10.1177/0971721817744438).
-- [Assigned]{.green_assigned}
+- [Assignment]{.green_assigned}
     - [Exercise 01: Norms and counter-norms write-up](#ex_norms_counternorms)
 
 ---
@@ -53,15 +51,15 @@
 
 ### Tuesday, January 24 {-}
 
-- Topic
-    - Replication crisis (or not)
+- Replication crisis (or not)
 - Read
     - [@Ritchie2020-fm], Chapter 2.
+    - [[@Begley2012-cr]](http://dx.doi.org/10.1038/483531a)
+    - (Optional) [@Oreskes2017], Chapter 7, pp. 228-244.
 
 ### Thursday, January 26 {-}
 
-- Topic
-    - Replication: The "Lady Macbeth Effect"
+- Replication: The "Lady Macbeth Effect"
 - Read
     - [[@Zhong2006-nf]](http://dx.doi.org/10.1126/science.1130726)
     - [[@Earp2014-ek]](https://doi.org/10.1080/01973533.2013.856792)
@@ -74,21 +72,17 @@
 
 ### Tuesday, January 31 {-}
 
-- Topic
-    - Replication: Power posing
-- Read
-    - [[@Carney2010-gq]](http://dx.doi.org/10.1177/0956797610383437)
-    - [[@Ranehill2015-dj]](http://dx.doi.org/10.1177/0956797614553946)
-- Watch
-    - [[@Cuddy2012-zx]](https://www.ted.com/talks/amy_cuddy_your_body_language_may_shape_who_you_are)
-
-### Thursday, February 2 {-}
-
-- Topic
-    - Replication: Priming effect
+- Replication: Priming effect
 - Read
     - [[@Bargh1996-yv]](http://dx.doi.org/10.1037//0022-3514.71.2.230)
     - [[@Doyen2012-ib]](http://dx.doi.org/10.1371/journal.pone.0029081)
+
+### Thursday, February 2 {-}
+
+- Replication in cancer biology
+- Read
+    - [[@Errington2021-sy]](http://dx.doi.org/10.7554/eLife.71601)
+    - [[@Errington2021-dp]](https://doi.org/10.7554/eLife.67995)
 
 ---
 
@@ -96,8 +90,7 @@
 
 ### Tuesday, February 7 {-}
 
-- Topic
-    - Reproducibility and replicability reconsidered
+- Reproducibility and replicability reconsidered
 - Read
     - [[@baker_1500_2016]](https://doi.org/10.1038/533452a)
     - [[@goodman_what_2016]](https://doi.org/10.1126/scitranslmed.aaf5027)
@@ -106,8 +99,7 @@
 
 ### Thursday, February 9 {-}
 
-- Topic
-    - Fraud & misconduct
+- Fraud & misconduct
 - Read
     - [@Ritchie2020-fm], Chapter 3
 
@@ -117,19 +109,17 @@
 
 ### Tuesday, February 14 {-}
 
-- Topic
-    - Fraud & misconduct
+- Fraud & misconduct
 - Read
     - [[@Bhattacharjee2013-rw]](https://www.nytimes.com/2013/04/28/magazine/diederik-stapels-audacious-academic-fraud.html)
     - [[@Levelt2012-ap]](https://pure.mpg.de/rest/items/item_1569964/component/file_1569966/content)
     - [[@Carpenter2012-ot]](https://www.science.org/content/article/harvard-psychology-researcher-committed-fraud-us-investigation-concludes)
-- [Assigned]{.green_assigned}
+- [Assignment]{.green_assigned}
     - [Exercise 02: P-hack your way to scientific glory](#ex_p_hacking)
 
 ### Thursday, February 16 {-}
 
-- Topic
-    - Retraction Watch/U.S. Office of Research Integrity (ORI)
+- Retraction Watch/U.S. Office of Research Integrity (ORI)
 - Read
     - [[@Brainerd2018-iy]](https://doi.org/10.1126/science.aav8384)
 - Explore
@@ -142,8 +132,7 @@
 
 ### Tuesday, February 21 {-}
 
-- Topic
-    - Bias
+- Bias
 - Read
     - [@Ritchie2020-fm], Chapter 4
 - [Due]{.orange_due}
@@ -151,8 +140,7 @@
    
 ### Thursday, February 23 {-}
 
-- Topic
-    - File drawer effect
+- File drawer effect
 - Read
     - [[@Rosenthal1979-zi]](https://doi.org/10.1037/0033-2909.86.3.638)
     - [[@Franco2014-yu]](http://dx.doi.org/10.1126/science.1255484)
@@ -163,21 +151,23 @@
 
 ### Tuesday, February 28 {-}
 
-- Topic
-    - Negligence
+- Negligence
 - Read
     - [@Ritchie2020-fm], Chapter 5
     - [[@Nuijten2015-ul]](https://doi.org/10.3758/s13428-015-0664-2)
     - [[@Szucs2017-fc]](http://dx.doi.org/10.1371/journal.pbio.2000797)
-- [Assigned]{.green_assigned}
+- [Assignment]{.green_assigned}
     - [Exercise 03: Alpha, Power, Effect Sizes, & Sample Size](#ex_apes)
 
 ### Thursday, March 2 {-}
 
-- Topic
-    - Hype
+- Hype
 - Read
     - [@Ritchie2020-fm], Chapter 6
+    - [[@Carney2010-gq]](http://dx.doi.org/10.1177/0956797610383437)
+    - (Optional) [[@Ranehill2015-dj]](http://dx.doi.org/10.1177/0956797614553946)
+- Watch
+    - [[@Cuddy2012-zx]](https://www.ted.com/talks/amy_cuddy_your_body_language_may_shape_who_you_are)
 - [Due]{.orange_due}
     - [Final project](#final_project) proposal
 
@@ -193,17 +183,16 @@
 
 #### Tuesday, March 14 {-}
 
-- Topic
-    - Solutions
+- Solutions
 - Read
     - [[@munafo_manifesto_2017]](https://doi.org/10.1038/s41562-016-0021)
+    - [[@Begley2013-vm]](http://dx.doi.org/10.1038/497433a)
 - [Due]{.orange_due}
     - [Exercise 03: Alpha, Power, Effect Sizes, & Sample Size](#ex_apes) write-up
 
 ### Thursday, March 16 {-}
 
-- Topic
-    - Solutions: Changing journal policies
+- Changing journal policies
 - Read
     - [[@nosek_promoting_2015]](https://doi.org/10.1126/science.aab2374)
     - [[@Gilmore2020-sl]](https://doi.org/10.1111/cdep.12360)
@@ -215,19 +204,16 @@
 
 ### Tuesday, March 21 {-}
 
-- Topic
-    - Large-scale replication studies
+- Large-scale replication studies
 - Read
     - [[@collaboration_estimating_2015]](https://doi.org/10.1126/science.aac4716)
     - [[@Camerer2018-tr]](https://doi.org/10.1038/s41562-018-0399-z)
-- [Assigned]{.green_assigned}
+- [Assignment]{.green_assigned}
     - [Exercise 04: Replication](#ex_replication)
 
 ### Thursday, March 23 {-}
 
-- Topic
-    - Meta-analysis
-    - Many analysts
+- Meta-analysis & many analysts
 - Read
     - [[@Wilson2014-ol]](https://www.psychologicalscience.org/observer/introduction-to-meta-analysis-a-guide-for-the-novice)
     - [[@Silberzahn2018-st]](https://doi.org/10.1177/2515245917747646)
@@ -238,8 +224,7 @@
 
 ### Tuesday, March 28 {-}
 
-- Topic
-    - Preregistration
+- Preregistration
 - Read
     - [[@Nosek2018-jk]](http://dx.doi.org/10.1073/pnas.1708274114)
     - [[@Ledgerwood2018-sn]](http://dx.doi.org/10.1073/pnas.1812592115)
@@ -248,12 +233,13 @@
     
 ### Thursday, March 30 {-}
 
-- Topic
-    - Preregistration II
+- Preregistration II
 - Read
     - [[@Frank2016-bv]](http://babieslearninglanguage.blogspot.com/2016/07/preregister-everything.html)
     - [[@Goldin-Meadow2016-mc]](https://www.psychologicalscience.org/observer/why-preregistration-makes-me-nervous)
     - [[@Claesen2021-ae]](http://dx.doi.org/10.1098/rsos.211037)
+- Explore
+    - [clinicaltrials.gov](https://clinicaltrials.gov/)
 
 ---
 
@@ -261,21 +247,19 @@
 
 ### Tuesday, April 4 {-}
 
-- Topic
-    - Data sharing
+- Data sharing
 - Read
     - [[@Houtkoop2018-tl]](https://doi.org/10.1177/2515245917751886)
     - [[@Tenopir2020-mq]](http://dx.doi.org/10.1371/journal.pone.0229003)
 
 ### Thursday, April 6 {-}
 
-- Topic
-    - Data sharing II
+- Data sharing II
 - Read
     - [[@National_Institutes_of_Health_undated-it]](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html)
     - [[@GilmoreAdolph2017]](https://doi.org/10.1038/s41562-017-0128)
     - [[@Meyer2018-vk]](https://doi.org/10.1177/2515245917747656)
-- [Assigned]{.green_assigned}
+- [Assignment]{.green_assigned}
     - [Exercise 05: Data and materials sharing](#ex_data_sharing)
 
 ---
@@ -284,16 +268,17 @@
 
 ### Tuesday, April 11 {-}
 
-- Topic
-    - Materials, code, & protocol sharing
+- Materials, code, & protocol sharing
 - Read
     - [[@Soska2021-mh]](http://dx.doi.org/10.7191/jeslib.2021.1208)
     - [[@Gilroy2019-bf]](http://dx.doi.org/10.1007/s40614-019-00202-5)
+- Explore
+    - [protocols.io](https://www.protocols.io/)
+    - [Journal of Visualized Experiments (JOVE)](https://www.jove.com/)
 
 ### Thursday, April 13 {-}
 
-- Topic
-    - Open science tools
+- Open science tools
 - [Due]{.orange_due}
     - [Exercise 05: Data and materials sharing](#ex_data_sharing)
 
@@ -303,13 +288,11 @@
 
 ### Tuesday, April 18 {-}
 
-- Topic
-    - Open science tools II
+- Open science tools II
 
 ### Thursday, April 20 {-}
 
-- Topic
-    - Project work day
+- Project work day
 
 ---
 
@@ -317,20 +300,17 @@
 
 ### Tuesday, April 25 {-}
 
-- Topic
-    - Project presentations
-
+- Project presentations
 
 ### Thursday, April 27 {-}
 
-- Topic
-    - Project presentations
+- Project presentations
 
 ---
     
 ## May 1-5 {- #finals-week}
 
-### Wednesday, May 3
+### Wednesday, May 3 {-}
 
 - [Due]{.orange_due}
   - [Final project]{#final_project} write-ups due 5:00 PM.
