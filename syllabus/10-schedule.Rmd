@@ -18,7 +18,7 @@
 - Read
     - [@Ritchie2020-fm], Chapter 1.
     - [[@Nosek2012-al]](http://dx.doi.org/10.1080/1047840X.2012.692215)
-    - (Optional) [@sagan-1996-baloney], Chapter 12, The Fine Art of Baloney Detection.
+    - Optional [@sagan-1996-baloney], Chapter 12, The Fine Art of Baloney Detection.
 
 ---
 
@@ -102,6 +102,9 @@
 - Fraud & misconduct
 - Read
     - [@Ritchie2020-fm], Chapter 3
+    - [[@Bhattacharjee2013-rw]](https://www.nytimes.com/2013/04/28/magazine/diederik-stapels-audacious-academic-fraud.html)
+    - (Skim) [[@Levelt2012-ap]](https://pure.mpg.de/rest/items/item_1569964/component/file_1569966/content)
+    - (Skim) [[@Carpenter2012-ot]](https://www.science.org/content/article/harvard-psychology-researcher-committed-fraud-us-investigation-concludes)
 
 ---
 
@@ -109,22 +112,23 @@
 
 ### Tuesday, February 14 {-}
 
-- Fraud & misconduct
-- Read
-    - [[@Bhattacharjee2013-rw]](https://www.nytimes.com/2013/04/28/magazine/diederik-stapels-audacious-academic-fraud.html)
-    - [[@Levelt2012-ap]](https://pure.mpg.de/rest/items/item_1569964/component/file_1569966/content)
-    - [[@Carpenter2012-ot]](https://www.science.org/content/article/harvard-psychology-researcher-committed-fraud-us-investigation-concludes)
-- [Assignment]{.green_assigned}
-    - [Exercise 02: P-hack your way to scientific glory](#ex_p_hacking)
-
-### Thursday, February 16 {-}
-
-- Retraction Watch/U.S. Office of Research Integrity (ORI)
+- Retraction and scientific integrity
 - Read
     - [[@Brainerd2018-iy]](https://doi.org/10.1126/science.aav8384)
 - Explore
     - <https://retractionwatch.com/>
     - <https://ori.hhs.gov/>
+- [Assignment]{.green_assigned}
+    - [Exercise 02: P-hack your way to scientific glory](#ex_p_hacking)
+
+### Thursday, February 16 {-}
+
+- Questionable research practices
+- Read
+    - [[@simmons_false-positive_2011]](http://dx.doi.org/10.1177/0956797611417632)
+    - [[@John2012-tk]](http://dx.doi.org/10.1177/0956797611430953)
+- Watch
+    - [[@Ngiam2020-ln]](https://www.youtube.com/watch?v=bf3GqyBRgzY)
 
 ---
 
@@ -228,18 +232,16 @@
 - Read
     - [[@Nosek2018-jk]](http://dx.doi.org/10.1073/pnas.1708274114)
     - [[@Ledgerwood2018-sn]](http://dx.doi.org/10.1073/pnas.1812592115)
+    - [[@Goldin-Meadow2016-mc]](https://www.psychologicalscience.org/observer/why-preregistration-makes-me-nervous)
+    - [[@Claesen2021-ae]](http://dx.doi.org/10.1098/rsos.211037)
+- Explore
+    - [clinicaltrials.gov](https://clinicaltrials.gov/)
 - [Due]{.orange_due}
     - [Exercise 04: Replication](#ex_replication)
     
 ### Thursday, March 30 {-}
 
-- Preregistration II
-- Read
-    - [[@Frank2016-bv]](http://babieslearninglanguage.blogspot.com/2016/07/preregister-everything.html)
-    - [[@Goldin-Meadow2016-mc]](https://www.psychologicalscience.org/observer/why-preregistration-makes-me-nervous)
-    - [[@Claesen2021-ae]](http://dx.doi.org/10.1098/rsos.211037)
-- Explore
-    - [clinicaltrials.gov](https://clinicaltrials.gov/)
+- Catch-up day
 
 ---
 
@@ -279,6 +281,9 @@
 ### Thursday, April 13 {-}
 
 - Open science tools
+- Read
+    - [[@Kathawalla2021-tk]](https://doi.org/10.1525/collabra.18684)
+    - [[@Cruwell2019-nz]](https://doi.org/10.1027/2151-2604/a000387)
 - [Due]{.orange_due}
     - [Exercise 05: Data and materials sharing](#ex_data_sharing)
 
