@@ -1,5 +1,9 @@
 # Exercise 02: The road to scientific glory {#ex_p_hacking -}
 
+## Dates {-}
+
+Due: [Tuesday, February 14, 2023]{.orange_due}.
+
 ## Acknowledgment {-}
 
 This exercise builds heavily on [[@Pownall2021-aa]](https://doi.org/10.17605/OSF.IO/TH254).
@@ -60,7 +64,8 @@ The dataset goes back to 1948.
 
 ## Submit {-}
 
-Print your report and bring it to class with you.
+Print your report and bring it to class with you on **February 21, 2023**.
+Please also save a copy of your report as a PDF using the preferred file naming convention for this class: `<lastname>-<firstname>-PSYCH490.002-ex01.docx`, where you substitute your last name for <lastname> and your first name for <firstname>.
 
 [^1]: Think about why we want you to write down your prediction before you look at the dataset.
 [^2]: **Hint**: The question tested has to do with the slope of the plot in 3. 

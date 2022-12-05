@@ -1,3 +1,28 @@
 # Exercise 04: Replication {#ex_replication -}
 
-Worth 10 points -- Write-up due <date>
+## Dates {-}
+
+Due: [Tuesday, March 28, 2023]{.orange_due}.
+
+## Goals {-}
+
+Replication is one standard among many that can be used to evaluate scientific findings.
+In this exercise, you will evaluate a published scientific finding on the basis of whether it 1) replicates prior work and 2) could be replicated by someone else.
+
+## Assignment {-}
+
+Choose a published scientific paper on a topic you find interesting and important.
+
+Does the paper:
+- Report on whether data reported replicate a prior finding?
+- Report effect sizes, sample sizes, and statistical power?
+- Does the paper share data?
+- Does the paper share any statistical or computer code used to analyze the data or make figures?
+- Does the paper share sufficient information about the measures used (e.g., a protocol, computer code to generate computer tasks, specific survey questions, or other information needed to replicate the tasks or measures) so that an independent third party like yourself could replicate the study?
+
+If you had to give the author(s) of your paper a grade for replicability (A, B, C, D, F), what grade would you give and why?
+
+## Submit {-}
+
+In a short (2-3 pp double-spaced report) discuss the finding and why you think it is interesting and important.
+Then, evaluate the paper from the perspective of "replicability" by answering the questions in the previous section.

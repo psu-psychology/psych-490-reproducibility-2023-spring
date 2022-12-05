@@ -1,5 +1,9 @@
 # Exercise 01: Exercise: Norms and Counter-norms {#ex_norms_counternorms -}
 
+## Dates
+
+Due: [Thursday, January 26, 2023]{.orange_due}.
+
 ## Goals {-}
 
 This exercise gives you an opportunity to consider how the norms (and counter-norms) that appear common in scientific research compare with other human activities.
@@ -7,11 +11,11 @@ This exercise gives you an opportunity to consider how the norms (and counter-no
 ## Assignment {-}
 
 Choose a realm of human activity that you are familiar with and preferable engage in yourself that is *not* scientific research--e.g., a sport or game, religious activity, club or social activity, political activity, or something else.
-Choose two norms or counter-norms in your chosen activity and in a short essay (2-3 pp in length) describe the norms or counter-norms and discuss how they compare with the norms and counter-norms common in scientific research.
+Choose two norms or counter-norms in your chosen activity and in a short essay (2-3 double-spaced pages in length) describe the norms or counter-norms in your chosen activity and discuss how they compare with the norms and counter-norms common in scientific research.
 
 ## Submit {-}
 
 A 2-3 page paper in Microsoft Word format using the following file-naming convention:
 
-`<lastname>-<firstname>-PSYCH490-ex01.docx`, where you substitute your last name for <lastname> and your first name for <firstname>.
-If Dr. Gilmore was submitting a paper, it would look like this: `gilmore-rick-PSYCH490-ex01.docx`. 
+`<lastname>-<firstname>-PSYCH490.002-ex01.docx`, where you substitute your last name for <lastname> and your first name for <firstname>.
+If Dr. Gilmore was submitting a paper, it would look like this: `gilmore-rick-PSYCH490.002-ex01.docx`. 

@@ -1,5 +1,9 @@
 # Expercise 03: Alpha, Power, Effect Sizes, & Sample Size {#ex_apes -}
 
+## Dates {-}
+
+Due: [Tuesday, March 14, 2023]{.orange_due}.
+
 ## Goals {-}
 
 This exercise aims to to build your understanding about the relationship between alpha $\alpha$ and its close cousin [statistical significance](https://forrt.org/glossary/statistical-significance/), [statistical power](https://forrt.org/glossary/statistical-power/) (1-$\beta$), effect size ($d$), and sample sizes ($n$).
@@ -26,7 +30,7 @@ In the real world, there are always trade-offs between the size of the samples w
 
 One way to think about those trade-offs is to think about our situation this way:
 
-Some "fact" about the world can either be true or false, and our *data analysis* tells us that the fact is either true or false.
+Some "fact" about the world can either be true or false, and our *data analysis* should inform us about whether the fact is either true or false.
 We want to be right as often as possible.
 That means having a way of deciding something's true when it actually *is* true and deciding when something's false when it actually *is* false.
 Both are important.
@@ -81,6 +85,6 @@ There are other ways to talk about effect sizes, but we won't go further here.
 
 ## Submit {-}
 
-Print your draft report and bring it to class with you.
+Print your *draft* report and bring it to class with you on Thursday, March 2, 2023.
 
 [^1]: Remember that probabilities are always between 0 and 1 and always sum to 1.
