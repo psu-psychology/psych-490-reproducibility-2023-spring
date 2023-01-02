@@ -11,7 +11,7 @@
     - [[@Feynman1974-ld]](https://calteches.library.caltech.edu/51/2/CargoCult.htm)
     - [@Harris2017-oz], Chapter 1, Begley's Bombshell.
     - Optional [[@Begley2012-cr]](http://dx.doi.org/10.1038/483531a)
-- [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023/course-intro.html)
+- [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/course-intro.html)
 
 ### Thursday, January 12 {-}
 
