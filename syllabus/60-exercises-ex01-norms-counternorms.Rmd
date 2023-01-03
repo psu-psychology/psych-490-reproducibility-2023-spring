@@ -1,6 +1,6 @@
 # Exercise 01: Exercise: Norms and Counter-norms {#ex_norms_counternorms -}
 
-## Dates
+## Dates {-}
 
 Due: [Thursday, January 26, 2023]{.orange_due}.
 
