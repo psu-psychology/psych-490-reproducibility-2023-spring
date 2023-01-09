@@ -8,8 +8,8 @@
 
 - Introduction to the course
 - Read
-    - [[@Feynman1974-ld]](https://calteches.library.caltech.edu/51/2/CargoCult.htm)
-    - [@Harris2017-oz], Chapter 1, Begley's Bombshell.
+    - [[@Feynman1974-ld]](https://calteches.library.caltech.edu/51/2/CargoCult.htm). 
+    - [@Harris2017-oz], Chapter 1, Begley's Bombshell. [PDF on Canvas](https://psu.instructure.com/files/144517093/download?download_frd=1).
     - Optional [[@Begley2012-cr]](http://dx.doi.org/10.1038/483531a)
 - [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/course-intro.html)
 
@@ -19,7 +19,7 @@
 - Read
     - [@Ritchie2020-fm], Chapter 1.
     - [[@Nosek2012-al]](http://dx.doi.org/10.1080/1047840X.2012.692215)
-    - Optional [@sagan-1996-baloney], Chapter 12, The Fine Art of Baloney Detection.
+    - Optional [@sagan-1996-baloney], Chapter 12, The Fine Art of Baloney Detection. [PDF on Canvas](https://psu.instructure.com/files/144517092/download?download_frd=1)
 
 ---
 
@@ -29,7 +29,7 @@
 
 - Scientific norms and counter-norms
 - Read
-    - [@Merton1973-vf].
+    - [@Merton1973-vf]. [PDF on Canvas](https://psu.instructure.com/files/144517091/download?download_frd=1).
     - [[@Mitroff1974-pp]](https://doi.org/10.2307/2094423).
 - [Assignment]{.green_assigned}
     - Complete (anonymous) [survey](https://forms.gle/1zqzfNNXWyCgiDSJ9) on scientific norms and counter-norms. **No write-up**.
