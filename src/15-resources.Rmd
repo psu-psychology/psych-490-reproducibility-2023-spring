@@ -10,6 +10,10 @@ Ritchie, S. (2021). *Science Fictions: Exposing Fraud, Bias, Negligence, and Hyp
 
 This book is **required** for the course.
 
+## Other readings
+
+Scanned copies of other readings are available as PDFs on [Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings).
+
 ## Web-based resources {-}
 
 - [Glossary](https://forrt.org/glossary/) of open science terms by the [Framework for Open and Reproducible Research Training (FORT)](https://fort.org). [[@Parsons2022-rs]](http://dx.doi.org/10.1038/s41562-021-01269-4).
