@@ -60,7 +60,7 @@
 
 ### Thursday, January 26 {-}
 
-- Replication: The "Lady Macbeth Effect"
+- Replication failure: The "Lady Macbeth Effect"
 - Read
     - [[@Zhong2006-nf]](http://dx.doi.org/10.1126/science.1130726)
     - [[@Earp2014-ek]](https://doi.org/10.1080/01973533.2013.856792)
