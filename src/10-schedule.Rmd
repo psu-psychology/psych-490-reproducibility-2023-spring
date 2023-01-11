@@ -17,8 +17,8 @@
 
 - How science works (or should)
 - Read
-    - [@Ritchie2020-fm], Chapter 1.
-    - [[@Nosek2012-al]](http://dx.doi.org/10.1080/1047840X.2012.692215)
+    - [@Ritchie2020-fm], Chapter 1. [Alternate link to PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=144654645).
+    - [[@Nosek2012-al]](http://dx.doi.org/10.1080/1047840X.2012.692215). [Alternate link to PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=144654434).
     - Optional [@sagan-1996-baloney], Chapter 12, The Fine Art of Baloney Detection. [PDF on Canvas](https://psu.instructure.com/files/144517092/download?download_frd=1)
 
 ---
