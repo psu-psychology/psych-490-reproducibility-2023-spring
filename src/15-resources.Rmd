@@ -10,7 +10,7 @@ Ritchie, S. (2021). *Science Fictions: Exposing Fraud, Bias, Negligence, and Hyp
 
 This book is **required** for the course.
 
-## Other readings
+## Other readings {-}
 
 Scanned copies of other readings are available as PDFs on [Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings).
 
