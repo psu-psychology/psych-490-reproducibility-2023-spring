@@ -8,7 +8,7 @@
 
 - Introduction to the course
 - Read
-    - [[@Feynman1974-ld]](https://calteches.library.caltech.edu/51/2/CargoCult.htm). 
+    - [[@Feynman1974-ld]](https://calteches.library.caltech.edu/51/2/CargoCult.htm).
     - [@Harris2017-oz], Chapter 1, Begley's Bombshell. [PDF on Canvas](https://psu.instructure.com/files/144517093/download?download_frd=1).
     - Optional [[@Begley2012-cr]](http://dx.doi.org/10.1038/483531a)
 - [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/course-intro.html)
