@@ -20,6 +20,7 @@
     - [@Ritchie2020-fm], Chapter 1. [Alternate link to PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=144654645).
     - [[@Nosek2012-al]](http://dx.doi.org/10.1080/1047840X.2012.692215). [Alternate link to PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=144654434).
     - Optional [@sagan-1996-baloney], Chapter 12, The Fine Art of Baloney Detection. [PDF on Canvas](https://psu.instructure.com/files/144517092/download?download_frd=1)
+- [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/how-science-works-or-should.html)
 
 ---
 
@@ -33,6 +34,7 @@
     - [[@Mitroff1974-pp]](https://doi.org/10.2307/2094423).
 - [Assignment]{.green_assigned}
     - Complete (anonymous) [survey](https://forms.gle/1zqzfNNXWyCgiDSJ9) on scientific norms and counter-norms. **No write-up**.
+- [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/scientific-norms-and-counter-norms.html)
 
 ### Thursday, January 19 {-}
 
@@ -45,6 +47,7 @@
     - [[@Kim2018-tr]](https://doi.org/10.1177/0971721817744438).
 - [Assignment]{.green_assigned}
     - [Exercise 01: Norms and counter-norms write-up](#ex_norms_counternorms)
+- [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/adherence-to-norms-and-counter-norms.html)
 
 ---
 
@@ -57,6 +60,7 @@
     - [@Ritchie2020-fm], Chapter 2.
     - [[@Begley2012-cr]](http://dx.doi.org/10.1038/483531a)
     - (Optional) [@Oreskes2017], Chapter 7, pp. 228-244.
+- [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/a-replication-crisis.html)
 
 ### Thursday, January 26 {-}
 
@@ -66,6 +70,7 @@
     - [[@Earp2014-ek]](https://doi.org/10.1080/01973533.2013.856792)
 - [Due]{.orange_due}
     - [Exercise 01: Norms and counter-norms write-up](#ex_norms_counternorms)
+- [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/a-replication-failure-the-lady-macbeth-effect.html)
 
 ---
 
