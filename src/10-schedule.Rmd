@@ -31,7 +31,7 @@
 - Scientific norms and counter-norms
 - Read
     - [@Merton1973-vf]. [PDF on Canvas](https://psu.instructure.com/files/144517091/download?download_frd=1).
-    - [[@Mitroff1974-pp]](https://doi.org/10.2307/2094423).
+    - [[@Mitroff1974-pp]](https://doi.org/10.2307/2094423). [PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=144804512).
 - [Assignment]{.green_assigned}
     - Complete (anonymous) [survey](https://forms.gle/1zqzfNNXWyCgiDSJ9) on scientific norms and counter-norms. **No write-up**.
 - [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/scientific-norms-and-counter-norms.html)
