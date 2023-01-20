@@ -57,7 +57,7 @@
 
 - Replication crisis (or not)
 - Read
-    - [@Ritchie2020-fm], Chapter 2.
+    - [@Ritchie2020-fm], Chapter 2. [PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=145003948).
     - [[@Begley2012-cr]](http://dx.doi.org/10.1038/483531a)
     - (Optional) [@Oreskes2017], Chapter 7, pp. 228-244.
 - [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/a-replication-crisis.html)
