@@ -78,7 +78,7 @@
 
 ### Tuesday, January 31 {-}
 
-- Replication: Priming effect
+- Replication failure: Priming effect
 - Read
     - [[@Bargh1996-yv]](http://dx.doi.org/10.1037//0022-3514.71.2.230)
     - [[@Doyen2012-ib]](http://dx.doi.org/10.1371/journal.pone.0029081)
