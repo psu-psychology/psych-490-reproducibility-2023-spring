@@ -90,6 +90,7 @@
 - Read
     - [[@Errington2021-sy]](http://dx.doi.org/10.7554/eLife.71601)
     - [[@Errington2021-dp]](https://doi.org/10.7554/eLife.67995)
+- [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/replication-in-cancer-biology.html)
 
 ---
 
@@ -97,9 +98,9 @@
 
 ### Tuesday, February 7 {-}
 
-- Reproducibility and replicability reconsidered
+- The 4 (5?) Rs
 - Read
-    - [[@baker_1500_2016]](https://doi.org/10.1038/533452a)
+    - [[@Nosek2022-hv]](https://doi.org/10.1146/annurev-psych-020821-114157)
     - [[@goodman_what_2016]](https://doi.org/10.1126/scitranslmed.aaf5027)
 - Skim
     - [[@Fidler2021-xn]](https://plato.stanford.edu/archives/sum2021/entries/scientific-reproducibility/)
