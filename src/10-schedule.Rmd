@@ -80,7 +80,7 @@
 
 - Replication failure: Priming effect
 - Read
-    - [[@Bargh1996-yv]](http://dx.doi.org/10.1037//0022-3514.71.2.230)
+    - [[@Bargh1996-yv]](http://dx.doi.org/10.1037//0022-3514.71.2.230); [PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=145417755)
     - [[@Doyen2012-ib]](http://dx.doi.org/10.1371/journal.pone.0029081)
 - [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/a-replication-failure-the-priming-effect.html)
 
