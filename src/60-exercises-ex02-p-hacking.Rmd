@@ -2,7 +2,7 @@
 
 ## Dates {-}
 
-Due: [Tuesday, February 14, 2023]{.orange_due}.
+Due: [Tuesday, February 21, 2023]{.orange_due}.
 
 ## Acknowledgment {-}
 
@@ -20,8 +20,8 @@ This exercise aims to build your understanding about [*p-hacking*](https://forrt
 ## Background {-}
 
 You are a policy analyst with a not-for-profit, or as our resource says, "You’re a social scientist with a hunch: The U.S. economy is affected by whether Republicans or Democrats are in office."
-Your task is to publish a report about whether the U.S. economy does better under Republican control or Democratic control.
-You may have prior ideas about this question, but your goal is to provide *data* that answer it.
+Your task is to publish a short report about whether the U.S. economy does better under Republican control or Democratic control.
+You probably have prior ideas about this question, but your goal is to provide *data* that answer it.
 
 You will make use of a [dataset](https://projects.fivethirtyeight.com/p-hacking/) with information about how well the U.S. economy performs and about the degree of Republican or Democratic political power.
 The dataset goes back to 1948.
