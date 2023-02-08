@@ -114,6 +114,7 @@
     - [[@Bhattacharjee2013-rw]](https://www.nytimes.com/2013/04/28/magazine/diederik-stapels-audacious-academic-fraud.html)
     - (Skim) [[@Levelt2012-ap]](https://pure.mpg.de/rest/items/item_1569964/component/file_1569966/content)
     - (Skim) [[@Carpenter2012-ot]](https://www.science.org/content/article/harvard-psychology-researcher-committed-fraud-us-investigation-concludes)
+- [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/fraud-misconduct.html)
 
 ---
 
