@@ -130,6 +130,7 @@
     - <https://ori.hhs.gov/>
 - [Assignment]{.green_assigned}
     - [Exercise 02: P-hack your way to scientific glory](#ex_p_hacking)
+- [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/retraction-and-scientific-integrity.html)
 
 ### Thursday, February 16 {-}
 
