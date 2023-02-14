@@ -140,6 +140,7 @@
     - [[@John2012-tk]](http://dx.doi.org/10.1177/0956797611430953)
 - Watch
     - [[@Ngiam2020-ln]](https://www.youtube.com/watch?v=bf3GqyBRgzY)
+- [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/questionable-research-practices.html)
 
 ---
 
