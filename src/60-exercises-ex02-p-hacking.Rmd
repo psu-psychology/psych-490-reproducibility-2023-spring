@@ -64,8 +64,13 @@ The dataset goes back to 1948.
 
 ## Submit {-}
 
-Print your report and bring it to class with you on **February 21, 2023**.
-Please also save a copy of your report as a PDF using the preferred file naming convention for this class: `<lastname>-<firstname>-PSYCH490.002-ex01.docx`, where you substitute your last name for <lastname> and your first name for <firstname>.
+Please save a copy of your report as a docx using the preferred file naming convention for this class: `<lastname>-<firstname>-PSYCH490.002-ex02.docx`, where you substitute your last name for <lastname> and your first name for <firstname>.
+
+Submit your report on Canvas in the dropbox for this assignment.
+
+Please also bring a copy to class with you on **February 21, 2023**.
+
+---
 
 [^1]: Think about why we want you to write down your prediction before you look at the dataset.
 [^2]: **Hint**: The question tested has to do with the slope of the plot in 3. 
