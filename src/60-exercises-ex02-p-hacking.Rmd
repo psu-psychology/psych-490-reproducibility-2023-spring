@@ -60,7 +60,7 @@ The dataset goes back to 1948.
 |----------------------|-------------------|---------------|---------|
 | <your data>          | <your data>       |   <your data> |   <your data>  |
 
-10. Create a report that captures the information you collected during the exercise and summarize your finding(s) in a sentence or two. You may use the simple [report template](report-template.html) as a guide.
+10. Create a report that captures the information you collected during the exercise and summarize your finding(s) in a sentence or two. You may use the simple [report template](report_template.html) as a guide.
 
 ## Submit {-}
 
