@@ -34,6 +34,9 @@ The dataset goes back to 1948.
 [ ] Republican</br>
 [ ] Democratic
 
+[ ] Economy does better</br>
+[ ] Economy does worse
+
 3. Visit the [dataset](https://projects.fivethirtyeight.com/p-hacking/) site.
 4. Select the party you have chosen to focus on by pressing the button in panel 1. of the site.
 5. Write down the variables that are selected in "2. Define Terms" on the site.
