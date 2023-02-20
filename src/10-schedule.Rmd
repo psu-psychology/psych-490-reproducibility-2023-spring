@@ -153,6 +153,7 @@
     - [@Ritchie2020-fm], Chapter 4
 - [Due]{.orange_due}
     - [Exercise 02: P-hack your way to scientific glory](#ex_p_hacking) write-up.
+- [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/bias.html)
    
 ### Thursday, February 23 {-}
 
@@ -160,6 +161,8 @@
 - Read
     - [[@Rosenthal1979-zi]](https://doi.org/10.1037/0033-2909.86.3.638)
     - [[@Franco2014-yu]](http://dx.doi.org/10.1126/science.1255484)
+- Work session on final project [proposals](final_project.html), [due Thursday, March 2]{.orange_due}.
+- [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/file-drawer-effect.html)
     
 ---
     
@@ -172,8 +175,11 @@
     - [@Ritchie2020-fm], Chapter 5
     - [[@Nuijten2015-ul]](https://doi.org/10.3758/s13428-015-0664-2)
     - [[@Szucs2017-fc]](http://dx.doi.org/10.1371/journal.pbio.2000797)
+- Work session
+    - [proposals](final_project.html), [due Thursday, March 2]{.orange_due}.
 - [Assignment]{.green_assigned}
     - [Exercise 03: Alpha, Power, Effect Sizes, & Sample Size](#ex_apes)
+- [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/negligence.html)
 
 ### Thursday, March 2 {-}
 
@@ -186,6 +192,7 @@
     - [[@Cuddy2012-zx]](https://www.ted.com/talks/amy_cuddy_your_body_language_may_shape_who_you_are)
 - [Due]{.orange_due}
     - [Final project](#final_project) proposal
+- [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/hype.html)
 
 ---
 
