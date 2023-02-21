@@ -23,7 +23,7 @@
 <meta name="author" content="Rick O. Gilmore, Ph.D." />
 
 
-<meta name="date" content="2023-02-20" />
+<meta name="date" content="2023-02-21" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -316,16 +316,17 @@ div.csl-indent {
 </div>
 <div id="shiny-app" class="section level2 unnumbered hasAnchor">
 <h2>Shiny app<a href="ex_apes.html#shiny-app" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Visit the app at <a href="https://rogilmore.shinyapps.io/PSYCH490-2023-APES/" class="uri">https://rogilmore.shinyapps.io/PSYCH490-2023-APES/</a>.</p>
 </div>
 <div id="background-1" class="section level2 unnumbered hasAnchor">
 <h2>Background<a href="ex_apes.html#background-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>In the ideal world, we want large samples so that we can be confident that when we find differences between A and B that those differences are not due to chance.
+<p>In the ideal world, we want large samples so that we can be confident that when we find differences between groups A and B (Americans and Europeans; males and females; soccer players and badminton players, etc.) that the differences we find are <em>not</em> due to chance.
 In the real world, there are always trade-offs between the size of the samples we can collect and our ability to avoid making mistakes about what’s true and what’s not.</p>
 <p>One way to think about those trade-offs is to think about our situation this way:</p>
 <p>Some “fact” about the world can either be true or false, and our <em>data analysis</em> should inform us about whether the fact is either true or false.
 We want to be right as often as possible.
 That means having a way of deciding something’s true when it actually <em>is</em> true and deciding when something’s false when it actually <em>is</em> false.
-Both are important.</p>
+Both are important ways for our analysis to be correct.</p>
 <p>We also want to avoid being wrong.
 We don’t want to decide something’s true when it’s not.
 That’s a <em>false positive</em>.
@@ -333,16 +334,17 @@ We also don’t want to decide something’s false when actually it’s true.
 That’s called a <em>false negative</em>.
 We want to minimize both.</p>
 <p>To avoid false positives, we decide how often we are willing to be wrong in that way and set a criterion accordingly.
-The alpha (<span class="math inline">\(\alpha\)</span>) or criterion reflects that choice.
+The alpha (<span class="math inline">\(\alpha\)</span>) value or criterion reflects that choice.
 It’s a probability, so it’s between 0 and 1.
-Since we want the fraction of the time we make false negative decisions to be small, <span class="math inline">\(\alpha\)</span> is also usually small; <span class="math inline">\(\alpha = 0.05\)</span> is conventional.</p>
+Since we want the fraction of the time we make false negative decisions to be small, <span class="math inline">\(\alpha\)</span> is also usually small; <span class="math inline">\(\alpha = 0.05\)</span> is conventional, but it is not in any way sacred.</p>
 <p>To avoid false negatives, we set another probability value, called beta (<span class="math inline">\(\beta\)</span>).
 Beta is the proportion of times we’re willing to conclude a true fact is actually false; <span class="math inline">\(\beta = 0.20\)</span> or 1 time out of five is conventional.
 But what data folks usually focus on is <span class="math inline">\(1-\beta\)</span><a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> or <em>statistical power</em>.
 This number tells us the proportion of times we expect to <em>detect</em> a true effect when it’s actually there.
-Detecting the truth is a scientific superpower, don’t you think?
+Detecting the truth is sort of a scientific superpower, don’t you think?
+At least when things go right.
 Maybe that’s why it’s called <em>power</em>.</p>
-<p>Analysts who are planning a study have two other decisions to make: How big a sample should they collect, and how sensitive is their test?
+<p>Analysts who are planning a study have two other decisions to make: How big a sample should they collect, and how sensitive should their test be?
 The answer to how big a sample should always be large, but how large?
 The answer is, of course, called <span class="math inline">\(n\)</span>.
 How sensitive is the test can be asked this way: What’s the smallest difference I want to be able to detect–assuming I’m interested in the difference between condition A and condition B?
@@ -350,35 +352,38 @@ That difference between conditions is called the <em>effect size</em> because it
 If we think effect sizes with respect to the standard normal (bell-curve-shaped) distribution with mean (<span class="math inline">\(\mu\)</span>) 0 and standard deviation (<span class="math inline">\(\sigma\)</span>) 1, we can specify it in terms of the number of standard deviations.
 Specified this way, the effect size is usually called <span class="math inline">\(d\)</span>.
 There are other ways to talk about effect sizes, but we won’t go further here.</p>
+<p>Your goals in this assignment are to see how choices about sample size (<span class="math inline">\(n\)</span>), effect size (<span class="math inline">\(d\)</span>), alpha (<span class="math inline">\(/alpha\)</span>) and power (<span class="math inline">\(1-\beta\)</span>) relate to one another.
+You’ll explore the effects of different values for these parameters, report on the parameters you chose, and what the results turned out to be.
+There are no right or wrong answers.</p>
 </div>
 <div id="your-analysis-1" class="section level2 unnumbered hasAnchor">
 <h2>Your analysis<a href="ex_apes.html#your-analysis-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ol style="list-style-type: decimal">
 <li>When you first open the app, note that it simulates an analysis of groups A (red) and B, and that we get to control a number of parameters, including <span class="math inline">\(n\)</span>, <span class="math inline">\(d\)</span>, and <span class="math inline">\(\alpha\)</span>. Note the statistics in the first gray box. It reports on the results of a <span class="math inline">\(t\)</span> test, comparing the difference between the means of the two groups.</li>
 </ol>
-<ul>
-<li><ol style="list-style-type: lower-alpha">
-<li>Interpret the results of the t test.</li>
-</ol></li>
-<li><ol start="2" style="list-style-type: lower-alpha">
-<li>“CI” means confidence interval. This refers to the difference in the mean of group A and the mean of group B. In your own words, explain what the confidence interval means.</li>
-</ol></li>
-</ul>
+<ol style="list-style-type: lower-alpha">
+<li>Interpret the results of the <em>t</em>-test. What does it mean? What is the number in the brackets?</li>
+<li>“CI” means confidence interval.
+he CI has a minimum (leftmost) and maximum (rightmost) value.
+The actual difference in the observed means of A and B should fall inside the interval.
+In your own words, explain what the confidence interval means.</li>
+</ol>
 <ol start="2" style="list-style-type: decimal">
 <li><p>The right hand box shows data about the statistical power (<span class="math inline">\(1-\beta\)</span> of this t-test. What is the ‘power’ reported. In your own words, what does this number mean?</p></li>
-<li><p>Having <span class="math inline">\(n=75\)</span> is a pretty large sample for many types of research in psychology, so let’s see what having smaller samples does to our t-test and to our power.</p></li>
+<li><p>Let’s see what happens when we generate different samples of A and B with the <strong>same</strong> underlying statistics–the same <span class="math inline">\(n\)</span>, same mean (<span class="math inline">\(\mu\)</span>), same standard deviation (<span class="math inline">\(\sigma\)</span>), same effect size (<span class="math inline">\(d\)</span>), and same criterion (<span class="math inline">\(\alpha\)</span>) or false positive rate.</p></li>
 </ol>
-<ul>
-<li><ol style="list-style-type: lower-alpha">
+<ol style="list-style-type: lower-alpha">
+<li>Press the <em>Regenerate</em> button. What happens to the histogram? Look in the grey <code>t-test</code> box. What happens to the <em>t</em>-test, and the mean values for A, B, the difference between A and B (B-A), and the CI?</li>
+<li>Press the <em>Regenerate</em> button a couple of times until <code>Sig?</code> changes from FALSE to TRUE or TRUE to FALSE? This is a form of <em>p</em>-hacking? Explain how. Remember the specific data we’re analyzing are being regenerated each time we press the button; what’s not changing is the sample size, standard deviation, and the effect size (difference between B and A).</li>
+</ol>
+<ol start="4" style="list-style-type: decimal">
+<li>Having <span class="math inline">\(n=75\)</span> is a pretty large sample for many types of research in psychology, so let’s see what having smaller samples does to our t-test and to our power.</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
 <li>But before we do that, write down your prediction about what will happen to the t-test when we reduce the <span class="math inline">\(n\)</span> for both groups A and B to 50.</li>
-</ol></li>
-<li><ol start="2" style="list-style-type: lower-alpha">
 <li>Change the <span class="math inline">\(n\)</span> for A to 50 and the <span class="math inline">\(n\)</span> for B to 50. Interpret the t-test and CI.</li>
-</ol></li>
-<li><ol start="3" style="list-style-type: lower-alpha">
-<li>What happened to power? Does this mean we are more likely or less likely to detect a difference than before?</li>
-</ol></li>
-</ul>
+<li>What happened to power? Does this mean we are more likely or less likely to detect a difference between A and B than before? Why?</li>
+</ol>
 <ol start="4" style="list-style-type: decimal">
 <li>We’re simulating what happens if there is an effect size of <span class="math inline">\(d=0.5\)</span>, or half a standard deviation between the means of A and B.</li>
 </ol>
@@ -391,12 +396,17 @@ There are other ways to talk about effect sizes, but we won’t go further here.
 </ol></li>
 </ul>
 <ol start="5" style="list-style-type: decimal">
-<li>Let’s see if we can find out what size of samples we’d need to have power <span class="math inline">\(1-\beta = 0.80\)</span> to detect an effect of (<span class="math inline">\(d=0.25\)</span>). Increase the sample sizes of A and B until you exceed the desired level for power. What sample size did you need?</li>
+<li><p>Let’s see if we can find out what size of samples we’d need to have power <span class="math inline">\(1-\beta = 0.80\)</span> to detect an effect of (<span class="math inline">\(d=0.25\)</span>). Increase the sample sizes of A and B until you exceed the desired level for power. What sample size did you need?</p></li>
+<li><p>Bonus Points (up to 5)</p></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li>Explore the effect of changing some other parameter on the results, for example, criterion/alpha (<span class="math inline">\(\alpha\)</span>), the standard deviation for A or B (<span class="math inline">\(\sigma\)</span>), or even the ‘baseline’ mean for B (<span class="math inline">\(\mu\)</span>).</li>
+<li>Report on what you changed, what you observed, and what you conclude.</li>
 </ol>
 </div>
 <div id="submit-2" class="section level2 unnumbered hasAnchor">
 <h2>Submit<a href="ex_apes.html#submit-2" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Print your <em>draft</em> report and bring it to class with you on Thursday, March 2, 2023.</p>
+<p>Bring your <em>draft</em> report to class with you on Tuesday, March 14, 2023. We’ll discuss the assignment. The final submission is due Tuesday, March 14, 2023 at midnight.</p>
 
 </div>
 </div>
