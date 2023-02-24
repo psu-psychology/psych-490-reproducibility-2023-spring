@@ -65,37 +65,30 @@ There are no right or wrong answers.
 ## Your analysis {-}
 
 1. When you first open the app, note that it simulates an analysis of groups A (red) and B, and that we get to control a number of parameters, including $n$, $d$, and $\alpha$. Note the statistics in the first gray box. It reports on the results of a $t$ test, comparing the difference between the means of the two groups. 
-
-a. Interpret the results of the *t*-test. What does it mean? What is the number in the brackets?
-b. "CI" means confidence interval. 
-he CI has a minimum (leftmost) and maximum (rightmost) value.
-The actual difference in the observed means of A and B should fall inside the interval.
+    - Interpret the results of the *t*-test. What does it mean? What is the number in the brackets? What does it mean?
+    - "CI" means confidence interval. The CI has a minimum (leftmost) and maximum (rightmost) value.
+The actual difference in the *observed* means of A and B should fall inside the interval.
 In your own words, explain what the confidence interval means.
 
-2. The right hand box shows data about the statistical power ($1-\beta$ of this t-test. What is the 'power' reported. In your own words, what does this number mean?
+<!-- 2. The right hand box shows data about the statistical power ($1-\beta$ of this *t*-test). What is the 'power' reported. Remember, beta $\beta$ is the probability of finding a false negative. In your own words, what does this number mean? -->
+2. Let's see what happens when we generate different samples of A and B with the **same** underlying statistics--the same $n$, same mean ($\mu$), same standard deviation ($\sigma$), same effect size ($d$), and same criterion ($\alpha$) or false positive rate.
+      - Press the *Regenerate* button. What happens to the histogram? Look in the grey `t-test` box. What happens to the *t*-test, and the mean values for A, B, the difference between A and B (B-A), and the CI?
+      - Press the *Regenerate* button a couple of times until `Sig?` changes from FALSE to TRUE or TRUE to FALSE? This is a form of *p*-hacking? Explain how. Remember the specific data we're analyzing are being regenerated each time we press the button; what's not changing is the sample size, standard deviation, and the effect size (difference between B and A). 
 
-
-3. Let's see what happens when we generate different samples of A and B with the **same** underlying statistics--the same $n$, same mean ($\mu$), same standard deviation ($\sigma$), same effect size ($d$), and same criterion ($\alpha$) or false positive rate.
-
-a. Press the *Regenerate* button. What happens to the histogram? Look in the grey `t-test` box. What happens to the *t*-test, and the mean values for A, B, the difference between A and B (B-A), and the CI?
-b. Press the *Regenerate* button a couple of times until `Sig?` changes from FALSE to TRUE or TRUE to FALSE? This is a form of *p*-hacking? Explain how. Remember the specific data we're analyzing are being regenerated each time we press the button; what's not changing is the sample size, standard deviation, and the effect size (difference between B and A). 
-
-4. Having $n=75$ is a pretty large sample for many types of research in psychology, so let's see what having smaller samples does to our t-test and to our power. 
-
-a. But before we do that, write down your prediction about what will happen to the t-test when we reduce the $n$ for both groups A and B to 50.
-b. Change the $n$ for A to 50 and the $n$ for B to 50. Interpret the t-test and CI.
-c. What happened to power? Does this mean we are more likely or less likely to detect a difference between A and B than before? Why?
+3. Having $n=75$ is a pretty large sample for many types of research in psychology, so let's see what having smaller samples does to our t-test and to our power. 
+      - But before we do that, write down your prediction about what will happen to the t-test when we reduce the $n$ for both groups A and B to 50.
+      - Change the $n$ for A to 50 and the $n$ for B to 50. Interpret the t-test and CI.
+      - What happened to power (see the box on the right side)? Does this mean we are more likely or less likely to detect a difference between A and B than before? Why?
 
 4. We're simulating what happens if there is an effect size of $d=0.5$, or half a standard deviation between the means of A and B.
-- a. Change $d$ to 1.5 or larger. What happens to the histogram? What happens to our t-test and power?
-- b. Change $d$ to 0.25. What happens to the histogram? What happens to our t-test and power?
+    - Change $d$ to 1.5 or larger. What happens to the histogram? What happens to our t-test and power?
+    - Change $d$ to 0.25. What happens to the histogram? What happens to our t-test and power?
 
-5. Let's see if we can find out what size of samples we'd need to have power $1-\beta = 0.80$ to detect an effect of ($d=0.25$). Increase the sample sizes of A and B until you exceed the desired level for power. What sample size did you need?
+5. Let's see if we can find out what size of samples we'd need to have power $1-\beta = 0.80$ to detect an effect of ($d=0.25$). Increase the sample sizes of A and B until you exceed the desired level for power. What sample size did you need? Explain your finding.
 
-6. Bonus Points (up to 5)
-
-a. Explore the effect of changing some other parameter on the results, for example, criterion/alpha ($\alpha$), the standard deviation for A or B ($\sigma$), or even the 'baseline' mean for B ($\mu$).
-b. Report on what you changed, what you observed, and what you conclude.
+6. (Optional) Bonus Points (up to 5)
+    - Explore the effect of changing some other parameter on the results, for example, criterion/alpha ($\alpha$), the standard deviation for A or B ($\sigma$), or even the 'baseline' mean for B ($\mu$).
+    - Report on what you changed, what you observed, and what you conclude.
 
 ## Submit {-}
 

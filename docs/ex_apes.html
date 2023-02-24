@@ -23,7 +23,7 @@
 <meta name="author" content="Rick O. Gilmore, Ph.D." />
 
 
-<meta name="date" content="2023-02-21" />
+<meta name="date" content="2023-02-24" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -359,49 +359,38 @@ There are no right or wrong answers.</p>
 <div id="your-analysis-1" class="section level2 unnumbered hasAnchor">
 <h2>Your analysis<a href="ex_apes.html#your-analysis-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ol style="list-style-type: decimal">
-<li>When you first open the app, note that it simulates an analysis of groups A (red) and B, and that we get to control a number of parameters, including <span class="math inline">\(n\)</span>, <span class="math inline">\(d\)</span>, and <span class="math inline">\(\alpha\)</span>. Note the statistics in the first gray box. It reports on the results of a <span class="math inline">\(t\)</span> test, comparing the difference between the means of the two groups.</li>
-</ol>
-<ol style="list-style-type: lower-alpha">
-<li>Interpret the results of the <em>t</em>-test. What does it mean? What is the number in the brackets?</li>
-<li>“CI” means confidence interval.
-he CI has a minimum (leftmost) and maximum (rightmost) value.
-The actual difference in the observed means of A and B should fall inside the interval.
+<li>When you first open the app, note that it simulates an analysis of groups A (red) and B, and that we get to control a number of parameters, including <span class="math inline">\(n\)</span>, <span class="math inline">\(d\)</span>, and <span class="math inline">\(\alpha\)</span>. Note the statistics in the first gray box. It reports on the results of a <span class="math inline">\(t\)</span> test, comparing the difference between the means of the two groups.
+<ul>
+<li>Interpret the results of the <em>t</em>-test. What does it mean? What is the number in the brackets? What does it mean?</li>
+<li>“CI” means confidence interval. The CI has a minimum (leftmost) and maximum (rightmost) value.
+The actual difference in the <em>observed</em> means of A and B should fall inside the interval.
 In your own words, explain what the confidence interval means.</li>
+</ul></li>
 </ol>
+<!-- 2. The right hand box shows data about the statistical power ($1-\beta$ of this *t*-test). What is the 'power' reported. Remember, beta $\beta$ is the probability of finding a false negative. In your own words, what does this number mean? -->
 <ol start="2" style="list-style-type: decimal">
-<li><p>The right hand box shows data about the statistical power (<span class="math inline">\(1-\beta\)</span> of this t-test. What is the ‘power’ reported. In your own words, what does this number mean?</p></li>
-<li><p>Let’s see what happens when we generate different samples of A and B with the <strong>same</strong> underlying statistics–the same <span class="math inline">\(n\)</span>, same mean (<span class="math inline">\(\mu\)</span>), same standard deviation (<span class="math inline">\(\sigma\)</span>), same effect size (<span class="math inline">\(d\)</span>), and same criterion (<span class="math inline">\(\alpha\)</span>) or false positive rate.</p></li>
-</ol>
-<ol style="list-style-type: lower-alpha">
+<li><p>Let’s see what happens when we generate different samples of A and B with the <strong>same</strong> underlying statistics–the same <span class="math inline">\(n\)</span>, same mean (<span class="math inline">\(\mu\)</span>), same standard deviation (<span class="math inline">\(\sigma\)</span>), same effect size (<span class="math inline">\(d\)</span>), and same criterion (<span class="math inline">\(\alpha\)</span>) or false positive rate.</p>
+<ul>
 <li>Press the <em>Regenerate</em> button. What happens to the histogram? Look in the grey <code>t-test</code> box. What happens to the <em>t</em>-test, and the mean values for A, B, the difference between A and B (B-A), and the CI?</li>
 <li>Press the <em>Regenerate</em> button a couple of times until <code>Sig?</code> changes from FALSE to TRUE or TRUE to FALSE? This is a form of <em>p</em>-hacking? Explain how. Remember the specific data we’re analyzing are being regenerated each time we press the button; what’s not changing is the sample size, standard deviation, and the effect size (difference between B and A).</li>
-</ol>
-<ol start="4" style="list-style-type: decimal">
-<li>Having <span class="math inline">\(n=75\)</span> is a pretty large sample for many types of research in psychology, so let’s see what having smaller samples does to our t-test and to our power.</li>
-</ol>
-<ol style="list-style-type: lower-alpha">
+</ul></li>
+<li><p>Having <span class="math inline">\(n=75\)</span> is a pretty large sample for many types of research in psychology, so let’s see what having smaller samples does to our t-test and to our power.</p>
+<ul>
 <li>But before we do that, write down your prediction about what will happen to the t-test when we reduce the <span class="math inline">\(n\)</span> for both groups A and B to 50.</li>
 <li>Change the <span class="math inline">\(n\)</span> for A to 50 and the <span class="math inline">\(n\)</span> for B to 50. Interpret the t-test and CI.</li>
-<li>What happened to power? Does this mean we are more likely or less likely to detect a difference between A and B than before? Why?</li>
-</ol>
-<ol start="4" style="list-style-type: decimal">
-<li>We’re simulating what happens if there is an effect size of <span class="math inline">\(d=0.5\)</span>, or half a standard deviation between the means of A and B.</li>
-</ol>
+<li>What happened to power (see the box on the right side)? Does this mean we are more likely or less likely to detect a difference between A and B than before? Why?</li>
+</ul></li>
+<li><p>We’re simulating what happens if there is an effect size of <span class="math inline">\(d=0.5\)</span>, or half a standard deviation between the means of A and B.</p>
 <ul>
-<li><ol style="list-style-type: lower-alpha">
 <li>Change <span class="math inline">\(d\)</span> to 1.5 or larger. What happens to the histogram? What happens to our t-test and power?</li>
-</ol></li>
-<li><ol start="2" style="list-style-type: lower-alpha">
 <li>Change <span class="math inline">\(d\)</span> to 0.25. What happens to the histogram? What happens to our t-test and power?</li>
-</ol></li>
-</ul>
-<ol start="5" style="list-style-type: decimal">
-<li><p>Let’s see if we can find out what size of samples we’d need to have power <span class="math inline">\(1-\beta = 0.80\)</span> to detect an effect of (<span class="math inline">\(d=0.25\)</span>). Increase the sample sizes of A and B until you exceed the desired level for power. What sample size did you need?</p></li>
-<li><p>Bonus Points (up to 5)</p></li>
-</ol>
-<ol style="list-style-type: lower-alpha">
+</ul></li>
+<li><p>Let’s see if we can find out what size of samples we’d need to have power <span class="math inline">\(1-\beta = 0.80\)</span> to detect an effect of (<span class="math inline">\(d=0.25\)</span>). Increase the sample sizes of A and B until you exceed the desired level for power. What sample size did you need? Explain your finding.</p></li>
+<li><p>(Optional) Bonus Points (up to 5)</p>
+<ul>
 <li>Explore the effect of changing some other parameter on the results, for example, criterion/alpha (<span class="math inline">\(\alpha\)</span>), the standard deviation for A or B (<span class="math inline">\(\sigma\)</span>), or even the ‘baseline’ mean for B (<span class="math inline">\(\mu\)</span>).</li>
 <li>Report on what you changed, what you observed, and what you conclude.</li>
+</ul></li>
 </ol>
 </div>
 <div id="submit-2" class="section level2 unnumbered hasAnchor">

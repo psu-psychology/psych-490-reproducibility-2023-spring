@@ -14,6 +14,7 @@ In this exercise, you will evaluate a published scientific finding on the basis 
 Choose a published scientific paper on a topic you find interesting and important.
 
 Does the paper:
+
 - Report on whether data reported replicate a prior finding?
 - Report effect sizes, sample sizes, and statistical power?
 - Does the paper share data?
