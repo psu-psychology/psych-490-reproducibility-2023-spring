@@ -55,19 +55,31 @@ The dataset goes back to 1948.
         - [ ] Exclude recessions
 
 6. If you know how, take a screenshot of the plot in "3. Is there a relationship" Include the screenshot in your report. In a sentence or two, describe what the plot shows.
-7. Report the result indicated in "4. Is your result significant?". What is the p-value? What does that p-value mean in practical terms--what question was tested[^2]? Is your result "publishable"?
-8. You may stop here and report your findings, or you may choose to explore the question further by selecting other variables (politicians included, measures of economic performance, or other options).
-9. If you explore further, for each set of variables you select, write down the variables you selected and the p-value you found:
+7. Report the result indicated in "4. Is your result significant?". What is the *p*-value? What does that p-value mean in practical terms--what question was tested[^2]? Is your result "publishable"?
+8. Select another set of variables (politicians included, measures of economic performance, or other options). Record the variables you chose, your prediction, and the outcome. Did the result change (the *p*-value of the test; whether it's 'publishable' or not)? 
+9. You may continue to explore other combinations of variables if you so choose. For each set of variables you select, write down the variables you selected and the *p*-value you found.
 
-| Politicians Included | Economic Measures | Other factors | p-value |
-|----------------------|-------------------|---------------|---------|
-| <your data>          | <your data>       |   <your data> |   <your data>  |
+Here is a table you can use as a template to format your data.
 
-10. Create a report that captures the information you collected during the exercise and summarize your finding(s) in a sentence or two. You may use the simple [report template](report_template.html) as a guide.
+| Analysis number | Politicians Included | Economic Measures | Other factors | p-value |
+|---------------- |-----|-------------------|---------------|---------|
+| 1               | <your data>          | <your data>       |   <your data> |   <your data> |
+| 2               | <your data>          | <your data>       |   <your data> |   <your data> |
+| ...             | <your data>          | <your data>       |   <your data> |   <your data> |
+
+10. Please enter your data into [this](https://docs.google.com/forms/d/e/1FAIpQLSegZX1IgaD993bGxA7w0Gk9D_nj30f3XFPylVYK110_s51MQw/viewform?usp=sf_link) Google form. Create a new form entry for each row of the above table. We'll look at the (anonymized) data from you and your classmates in class to see if there are any patterns to the findings.
+
+11. Create a report that captures the information you collected during the exercise and summarizes the overarching implications of your findings in a few sentences. 
+For example, did you find yourself *p*-hacking to get a result you predicted or did you stop once you got a result that satisfied you?
+How confident are you that the variables you chose are the right ones?
+If another data analyst picked other variables and came to a different conclusion about which party is better (or worse) for the economy, would that change your mind?
+What are the larger-scale implications of *p*-hacking for scientific research?
+
+You may use the simple [report template](report_template.html) as a guide. 
 
 ## Submit {-}
 
-Please save a copy of your report as a docx using the preferred file naming convention for this class: `<lastname>-<firstname>-PSYCH490.002-ex02.docx`, where you substitute your last name for <lastname> and your first name for <firstname>.
+Please save a copy of your report as a docx using the preferred file naming convention for this class: `lastname-firstname-PSYCH490.002-ex02.docx`, where you substitute your last name for `lastname` and your first name for `firstname`.
 
 Submit your report on Canvas in the dropbox for this assignment.
 
