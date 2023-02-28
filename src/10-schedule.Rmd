@@ -210,8 +210,6 @@
 - Read
     - [[@munafo_manifesto_2017]](https://doi.org/10.1038/s41562-016-0021)
     - [[@Begley2013-vm]](http://dx.doi.org/10.1038/497433a)
-- [Due]{.orange_due}
-    - [Exercise 03: Alpha, Power, Effect Sizes, & Sample Size](#ex_apes) write-up
 
 ### Thursday, March 16 {-}
 
@@ -220,6 +218,8 @@
     - [[@nosek_promoting_2015]](https://doi.org/10.1126/science.aab2374)
     - [[@Gilmore2020-sl]](https://doi.org/10.1111/cdep.12360)
     - [[@Srcd2019-hg]](https://www.srcd.org/policy-scientific-integrity-transparency-and-openness)
+- [Due]{.orange_due}
+    - [Exercise 03: Alpha, Power, Effect Sizes, & Sample Size](#ex_apes) write-up
 
 ---
 
