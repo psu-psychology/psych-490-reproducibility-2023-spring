@@ -210,6 +210,7 @@
 - Read
     - [[@munafo_manifesto_2017]](https://doi.org/10.1038/s41562-016-0021)
     - [[@Begley2013-vm]](http://dx.doi.org/10.1038/497433a)
+- [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/solutions-1.html)
 
 ### Thursday, March 16 {-}
 
