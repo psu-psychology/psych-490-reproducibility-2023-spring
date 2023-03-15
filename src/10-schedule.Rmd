@@ -204,7 +204,7 @@
 
 ## March 13 - 17 {- #week-09}
 
-#### Tuesday, March 14 {-}
+### Tuesday, March 14 {-}
 
 - Solutions
 - Read
@@ -219,6 +219,7 @@
     - [[@nosek_promoting_2015]](https://doi.org/10.1126/science.aab2374)
     - [[@Gilmore2020-sl]](https://doi.org/10.1111/cdep.12360)
     - [[@Srcd2019-hg]](https://www.srcd.org/policy-scientific-integrity-transparency-and-openness)
+- [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/changing-journal-policies.html)
 - [Due]{.orange_due}
     - [Exercise 03: Alpha, Power, Effect Sizes, & Sample Size](#ex_apes) write-up
 
@@ -231,7 +232,8 @@
 - Large-scale replication studies
 - Read
     - [[@collaboration_estimating_2015]](https://doi.org/10.1126/science.aac4716)
-    - [[@Camerer2018-tr]](https://doi.org/10.1038/s41562-018-0399-z)
+    - (Optional) [@Camerer2018-tr](https://doi.org/10.1038/s41562-018-0399-z)
+      - For 5 extra credit points, write a paragraph that summarizes the main findings of this paper. [Due Tuesday, March 28]{.due_orange}.
 - [Assignment]{.green_assigned}
     - [Exercise 04: Replication](#ex_replication)
 
