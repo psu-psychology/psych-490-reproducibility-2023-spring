@@ -234,6 +234,7 @@
     - [[@collaboration_estimating_2015]](https://doi.org/10.1126/science.aac4716)
     - (Optional) [@Camerer2018-tr](https://doi.org/10.1038/s41562-018-0399-z)
       - For 5 extra credit points, write a paragraph that summarizes the main findings of this paper. [Due Tuesday, March 28]{.due_orange}.
+- [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/large-scale-replications.html)
 - [Assignment]{.green_assigned}
     - [Exercise 04: Replication](#ex_replication)
 
