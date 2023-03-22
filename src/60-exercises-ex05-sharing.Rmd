@@ -15,7 +15,7 @@ Choose a data or code repository from among the following:
 - [figshare](https://figshare.com)
 - [GitHub](https://github.com)
 - [GitLab](https://gitlab.com)
-- [Inter-university Consortium for Political and Social Research (ICPSR)]https://www.icpsr.umich.edu/web/pages/
+- [Inter-university Consortium for Political and Social Research (ICPSR)](https://www.icpsr.umich.edu/web/pages/)
 - [NIMH Data Archive](https://nda.nih.gov)
 - [OpenNeuro](https://openneuro.org)
 - [Open Science Framework (OSF)](https://osf.io)
@@ -25,14 +25,16 @@ Choose a data or code repository from among the following:
 
 
 Provide some basic summary information about the repository:
+
 - Who sponsors the data or code repository?
 - What sort of data or code are stored and shared there?
 - Who is the target audience for the repository?
 
 Find a dataset or code base within the repository and report on the following:
+
 - What kind of data or code are stored and shared?
 - How hard or easy would it be for you to use the data or code yourself?
 
 ## Submit {-}
 
-A 2-3 pp double-spaced report on your findings.
+A 2-3 pp double-spaced report on your findings. Make sure to include your name and a title for your report in the header of your document.

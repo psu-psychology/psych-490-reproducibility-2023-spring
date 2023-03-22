@@ -20,3 +20,7 @@ pre code {
 .orange_due {
   color: orange;
 }
+
+p {
+  font-size: 1.2em;
+}

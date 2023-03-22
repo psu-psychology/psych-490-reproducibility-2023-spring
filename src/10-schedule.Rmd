@@ -8,9 +8,9 @@
 
 - Introduction to the course
 - Read
-    - [[@Feynman1974-ld]](https://calteches.library.caltech.edu/51/2/CargoCult.htm).
+    - [@Feynman1974-ld](https://calteches.library.caltech.edu/51/2/CargoCult.htm).
     - [@Harris2017-oz], Chapter 1, Begley's Bombshell. [PDF on Canvas](https://psu.instructure.com/files/144517093/download?download_frd=1).
-    - Optional [[@Begley2012-cr]](http://dx.doi.org/10.1038/483531a)
+    - Optional [@Begley2012-cr](http://dx.doi.org/10.1038/483531a)
 - [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/course-intro.html)
 
 ### Thursday, January 12 {-}
@@ -18,7 +18,7 @@
 - How science works (or should)
 - Read
     - [@Ritchie2020-fm], Chapter 1. [Alternate link to PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=144654645).
-    - [[@Nosek2012-al]](http://dx.doi.org/10.1080/1047840X.2012.692215). [Alternate link to PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=144654434).
+    - [@Nosek2012-al](http://dx.doi.org/10.1080/1047840X.2012.692215). [Alternate link to PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=144654434).
     - Optional [@sagan-1996-baloney], Chapter 12, The Fine Art of Baloney Detection. [PDF on Canvas](https://psu.instructure.com/files/144517092/download?download_frd=1)
 - [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/how-science-works-or-should.html)
 
@@ -31,7 +31,7 @@
 - Scientific norms and counter-norms
 - Read
     - [@Merton1973-vf]. [PDF on Canvas](https://psu.instructure.com/files/144517091/download?download_frd=1).
-    - [[@Mitroff1974-pp]](https://doi.org/10.2307/2094423). [PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=144804512).
+    - [@Mitroff1974-pp](https://doi.org/10.2307/2094423). [PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=144804512).
 - [Assignment]{.green_assigned}
     - Complete (anonymous) [survey](https://forms.gle/1zqzfNNXWyCgiDSJ9) on scientific norms and counter-norms. **No write-up**.
 - [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/scientific-norms-and-counter-norms.html)
@@ -40,11 +40,11 @@
 
 - Adherence to norms and counter-norms
 - Read
-    - [[@Kardash2012-kq]](https://doi.org/10.1007/s11251-011-9195-0).
-    - [[@Macfarlane2008-tc]](https://doi.org/10.1007/s10805-008-9055-y).
+    - [@Kardash2012-kq](https://doi.org/10.1007/s11251-011-9195-0).
+    - [@Macfarlane2008-tc](https://doi.org/10.1007/s10805-008-9055-y).
 - Skim
-    - [[@Anderson2010-rl]](http://dx.doi.org/10.1353/jhe.0.0095).
-    - [[@Kim2018-tr]](https://doi.org/10.1177/0971721817744438).
+    - [@Anderson2010-rl](http://dx.doi.org/10.1353/jhe.0.0095).
+    - [@Kim2018-tr](https://doi.org/10.1177/0971721817744438).
 - [Assignment]{.green_assigned}
     - [Exercise 01: Norms and counter-norms write-up](#ex_norms_counternorms)
 - [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/adherence-to-norms-and-counter-norms.html)
@@ -58,7 +58,7 @@
 - A replication crisis (or not)
 - Read
     - [@Ritchie2020-fm], Chapter 2. [PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=145003948).
-    - [[@Begley2012-cr]](http://dx.doi.org/10.1038/483531a)
+    - [@Begley2012-cr](http://dx.doi.org/10.1038/483531a)
     - (Optional) [@Oreskes2017], Chapter 7, pp. 228-244.
 - [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/a-replication-crisis.html)
 
@@ -66,8 +66,8 @@
 
 - Replication failure: The "Lady Macbeth Effect"
 - Read
-    - [[@Zhong2006-nf]](http://dx.doi.org/10.1126/science.1130726)
-    - [[@Earp2014-ek]](https://doi.org/10.1080/01973533.2013.856792)
+    - [@Zhong2006-nf](http://dx.doi.org/10.1126/science.1130726)
+    - [@Earp2014-ek](https://doi.org/10.1080/01973533.2013.856792)
 - [Due]{.orange_due}
     - [Exercise 01: Norms and counter-norms write-up](#ex_norms_counternorms)
 - [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/a-replication-failure-the-lady-macbeth-effect.html)
@@ -80,16 +80,16 @@
 
 - Replication failure: Priming effect
 - Read
-    - [[@Bargh1996-yv]](http://dx.doi.org/10.1037//0022-3514.71.2.230); [PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=145417755)
-    - [[@Doyen2012-ib]](http://dx.doi.org/10.1371/journal.pone.0029081)
+    - [@Bargh1996-yv](http://dx.doi.org/10.1037//0022-3514.71.2.230); [PDF on Canvas](https://psu.instructure.com/courses/2245007/files/folder/readings?preview=145417755)
+    - [@Doyen2012-ib](http://dx.doi.org/10.1371/journal.pone.0029081)
 - [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/a-replication-failure-the-priming-effect.html)
 
 ### Thursday, February 2 {-}
 
 - Replication in cancer biology
 - Read
-    - [[@Errington2021-sy]](http://dx.doi.org/10.7554/eLife.71601)
-    - [[@Errington2021-dp]](https://doi.org/10.7554/eLife.67995)
+    - [@Errington2021-sy](http://dx.doi.org/10.7554/eLife.71601)
+    - [@Errington2021-dp](https://doi.org/10.7554/eLife.67995)
 - [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/replication-in-cancer-biology.html)
 
 ---
@@ -100,10 +100,10 @@
 
 - The 4 (5?) Rs
 - Read
-    - [[@Nosek2022-hv]](https://doi.org/10.1146/annurev-psych-020821-114157)
-    - [[@goodman_what_2016]](https://doi.org/10.1126/scitranslmed.aaf5027)
+    - [@Nosek2022-hv](https://doi.org/10.1146/annurev-psych-020821-114157)
+    - [@goodman_what_2016](https://doi.org/10.1126/scitranslmed.aaf5027)
 - Skim
-    - [[@Fidler2021-xn]](https://plato.stanford.edu/archives/sum2021/entries/scientific-reproducibility/)
+    - [@Fidler2021-xn](https://plato.stanford.edu/archives/sum2021/entries/scientific-reproducibility/)
 - [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/the-5-rs.html)
 
 ### Thursday, February 9 {-}
@@ -111,9 +111,9 @@
 - Fraud & misconduct
 - Read
     - [@Ritchie2020-fm], Chapter 3
-    - [[@Bhattacharjee2013-rw]](https://www.nytimes.com/2013/04/28/magazine/diederik-stapels-audacious-academic-fraud.html)
-    - (Skim) [[@Levelt2012-ap]](https://pure.mpg.de/rest/items/item_1569964/component/file_1569966/content)
-    - (Skim) [[@Carpenter2012-ot]](https://www.science.org/content/article/harvard-psychology-researcher-committed-fraud-us-investigation-concludes)
+    - [@Bhattacharjee2013-rw](https://www.nytimes.com/2013/04/28/magazine/diederik-stapels-audacious-academic-fraud.html)
+    - (Skim) [@Levelt2012-ap](https://pure.mpg.de/rest/items/item_1569964/component/file_1569966/content)
+    - (Skim) [@Carpenter2012-ot](https://www.science.org/content/article/harvard-psychology-researcher-committed-fraud-us-investigation-concludes)
 - [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/fraud-misconduct.html)
 
 ---
@@ -124,7 +124,7 @@
 
 - Retraction and scientific integrity
 - Read
-    - [[@Brainerd2018-iy]](https://doi.org/10.1126/science.aav8384)
+    - [@Brainerd2018-iy](https://doi.org/10.1126/science.aav8384)
 - Explore
     - <https://retractionwatch.com/>
     - <https://ori.hhs.gov/>
@@ -136,10 +136,10 @@
 
 - Questionable research practices
 - Read
-    - [[@simmons_false-positive_2011]](http://dx.doi.org/10.1177/0956797611417632)
-    - (Skim) [[@John2012-tk]](http://dx.doi.org/10.1177/0956797611430953)
+    - [@simmons_false-positive_2011](http://dx.doi.org/10.1177/0956797611417632)
+    - (Skim) [@John2012-tk](http://dx.doi.org/10.1177/0956797611430953)
 - Watch
-    - [[@Ngiam2020-ln]](https://www.youtube.com/watch?v=bf3GqyBRgzY)
+    - [@Ngiam2020-ln](https://www.youtube.com/watch?v=bf3GqyBRgzY)
 - [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/questionable-research-practices.html)
 
 ---
@@ -159,8 +159,8 @@
 
 - File drawer effect
 - Read
-    - [[@Rosenthal1979-zi]](https://doi.org/10.1037/0033-2909.86.3.638)
-    - [[@Franco2014-yu]](http://dx.doi.org/10.1126/science.1255484)
+    - [@Rosenthal1979-zi](https://doi.org/10.1037/0033-2909.86.3.638)
+    - [@Franco2014-yu](http://dx.doi.org/10.1126/science.1255484)
 - Work session on final project [proposals](final_project.html), [due Thursday, March 2]{.orange_due}.
 - [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/file-drawer-effect.html)
     
@@ -173,8 +173,8 @@
 - Negligence
 - Read
     - [@Ritchie2020-fm], Chapter 5
-    - [[@Nuijten2015-ul]](https://doi.org/10.3758/s13428-015-0664-2)
-    - [[@Szucs2017-fc]](http://dx.doi.org/10.1371/journal.pbio.2000797)
+    - [@Nuijten2015-ul](https://doi.org/10.3758/s13428-015-0664-2)
+    - [@Szucs2017-fc](http://dx.doi.org/10.1371/journal.pbio.2000797)
 - Work session
     - [proposals](final_project.html), [due Thursday, March 2]{.orange_due}.
 - [Assignment]{.green_assigned}
@@ -186,10 +186,10 @@
 - Hype
 - Read
     - [@Ritchie2020-fm], Chapter 6
-    - [[@Carney2010-gq]](http://dx.doi.org/10.1177/0956797610383437)
-    - (Optional) [[@Ranehill2015-dj]](http://dx.doi.org/10.1177/0956797614553946)
+    - [@Carney2010-gq](http://dx.doi.org/10.1177/0956797610383437)
+    - (Optional) [@Ranehill2015-dj](http://dx.doi.org/10.1177/0956797614553946)
 - Watch
-    - [[@Cuddy2012-zx]](https://www.ted.com/talks/amy_cuddy_your_body_language_may_shape_who_you_are)
+    - [@Cuddy2012-zx](https://www.ted.com/talks/amy_cuddy_your_body_language_may_shape_who_you_are)
 - [Due]{.orange_due}
     - [Final project](#final_project) proposal
 - [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/hype.html)
@@ -208,17 +208,17 @@
 
 - Solutions
 - Read
-    - [[@munafo_manifesto_2017]](https://doi.org/10.1038/s41562-016-0021)
-    - [[@Begley2013-vm]](http://dx.doi.org/10.1038/497433a)
+    - [@munafo_manifesto_2017](https://doi.org/10.1038/s41562-016-0021)
+    - [@Begley2013-vm](http://dx.doi.org/10.1038/497433a)
 - [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/solutions-1.html)
 
 ### Thursday, March 16 {-}
 
 - Changing journal policies
 - Read
-    - [[@nosek_promoting_2015]](https://doi.org/10.1126/science.aab2374)
-    - [[@Gilmore2020-sl]](https://doi.org/10.1111/cdep.12360)
-    - [[@Srcd2019-hg]](https://www.srcd.org/policy-scientific-integrity-transparency-and-openness)
+    - [@nosek_promoting_2015](https://doi.org/10.1126/science.aab2374)
+    - [@Gilmore2020-sl](https://doi.org/10.1111/cdep.12360)
+    - [@Srcd2019-hg](https://www.srcd.org/policy-scientific-integrity-transparency-and-openness)
 - [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/changing-journal-policies.html)
 - [Due]{.orange_due}
     - [Exercise 03: Alpha, Power, Effect Sizes, & Sample Size](#ex_apes) write-up
@@ -231,7 +231,7 @@
 
 - Large-scale replication studies
 - Read
-    - [[@collaboration_estimating_2015]](https://doi.org/10.1126/science.aac4716)
+    - [@collaboration_estimating_2015](https://doi.org/10.1126/science.aac4716)
     - (Optional) [@Camerer2018-tr](https://doi.org/10.1038/s41562-018-0399-z)
       - For 5 extra credit points, write a paragraph that summarizes the main findings of this paper. [Due Tuesday, March 28]{.due_orange}.
 - [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/large-scale-replications.html)
@@ -242,8 +242,9 @@
 
 - Meta-analysis & many analysts
 - Read
-    - [[@Wilson2014-ol]](https://www.psychologicalscience.org/observer/introduction-to-meta-analysis-a-guide-for-the-novice)
-    - [[@Silberzahn2018-st]](https://doi.org/10.1177/2515245917747646)
+    - [@Wilson2014-ol](https://www.psychologicalscience.org/observer/introduction-to-meta-analysis-a-guide-for-the-novice)
+    - [@Silberzahn2018-st](https://doi.org/10.1177/2515245917747646)
+- [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/meta-analysis-and-many-analysts.html)
 
 ---
 
@@ -251,21 +252,20 @@
 
 ### Tuesday, March 28 {-}
 
+- Project work day
+   
+### Thursday, March 30 {-}
+
 - Preregistration
 - Read
-    - [[@Nosek2018-jk]](http://dx.doi.org/10.1073/pnas.1708274114)
-    - [[@Ledgerwood2018-sn]](http://dx.doi.org/10.1073/pnas.1812592115)
-    - [[@Goldin-Meadow2016-mc]](https://www.psychologicalscience.org/observer/why-preregistration-makes-me-nervous)
-    - [[@Claesen2021-ae]](http://dx.doi.org/10.1098/rsos.211037)
+    - [@Nosek2018-jk](http://dx.doi.org/10.1073/pnas.1708274114)
+    - [@Ledgerwood2018-sn](http://dx.doi.org/10.1073/pnas.1812592115) or [@Goldin-Meadow2016-mc](https://www.psychologicalscience.org/observer/why-preregistration-makes-me-nervous)
+    - (Optional) [@Claesen2021-ae](http://dx.doi.org/10.1098/rsos.211037)
 - Explore
     - [clinicaltrials.gov](https://clinicaltrials.gov/)
 - [Due]{.orange_due}
     - [Exercise 04: Replication](#ex_replication)
-    
-### Thursday, March 30 {-}
-
-- Catch-up day
-
+ 
 ---
 
 ## April 3 - 7 {- #week-12}
@@ -274,16 +274,16 @@
 
 - Data sharing
 - Read
-    - [[@Houtkoop2018-tl]](https://doi.org/10.1177/2515245917751886)
-    - [[@Tenopir2020-mq]](http://dx.doi.org/10.1371/journal.pone.0229003)
+    - [@Houtkoop2018-tl](https://doi.org/10.1177/2515245917751886)
+    - [@Tenopir2020-mq](http://dx.doi.org/10.1371/journal.pone.0229003)
 
 ### Thursday, April 6 {-}
 
 - Data sharing II
 - Read
-    - [[@National_Institutes_of_Health_undated-it]](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html)
-    - [[@GilmoreAdolph2017]](https://doi.org/10.1038/s41562-017-0128)
-    - [[@Meyer2018-vk]](https://doi.org/10.1177/2515245917747656)
+    - [@National_Institutes_of_Health_undated-it](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html)
+    - [@GilmoreAdolph2017](https://doi.org/10.1038/s41562-017-0128)
+    - [@Meyer2018-vk](https://doi.org/10.1177/2515245917747656)
 - [Assignment]{.green_assigned}
     - [Exercise 05: Data and materials sharing](#ex_data_sharing)
 
@@ -295,8 +295,8 @@
 
 - Materials, code, & protocol sharing
 - Read
-    - [[@Soska2021-mh]](http://dx.doi.org/10.7191/jeslib.2021.1208)
-    - [[@Gilroy2019-bf]](http://dx.doi.org/10.1007/s40614-019-00202-5)
+    - [@Soska2021-mh](http://dx.doi.org/10.7191/jeslib.2021.1208)
+    - [@Gilroy2019-bf](http://dx.doi.org/10.1007/s40614-019-00202-5)
 - Explore
     - [protocols.io](https://www.protocols.io/)
     - [Journal of Visualized Experiments (JOVE)](https://www.jove.com/)
@@ -305,8 +305,8 @@
 
 - Open science tools
 - Read
-    - [[@Kathawalla2021-tk]](https://doi.org/10.1525/collabra.18684)
-    - [[@Cruwell2019-nz]](https://doi.org/10.1027/2151-2604/a000387)
+    - [@Kathawalla2021-tk](https://doi.org/10.1525/collabra.18684)
+    - [@Cruwell2019-nz](https://doi.org/10.1027/2151-2604/a000387)
 - [Due]{.orange_due}
     - [Exercise 05: Data and materials sharing](#ex_data_sharing)
 
