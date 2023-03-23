@@ -2,7 +2,7 @@
 
 ## Dates {-}
 
-Due: [Tuesday, March 28, 2023]{.orange_due}.
+Due: [Thursday, March 30, 2023]{.orange_due}.
 
 ## Goals {-}
 
