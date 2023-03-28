@@ -265,6 +265,7 @@
     - [clinicaltrials.gov](https://clinicaltrials.gov/)
 - [Due]{.orange_due}
     - [Exercise 04: Replication](#ex_replication)
+- [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/preregistration.html)
  
 ---
 
