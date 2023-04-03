@@ -273,19 +273,22 @@
 
 ### Tuesday, April 4 {-}
 
+- Project work day
+
+- Data sharing
+- Read
+
+### Thursday, April 6 {-}
+
 - Data sharing
 - Read
     - [@Houtkoop2018-tl](https://doi.org/10.1177/2515245917751886)
     - [@Tenopir2020-mq](http://dx.doi.org/10.1371/journal.pone.0229003)
-
-### Thursday, April 6 {-}
-
-- Data sharing II
-- Read
-    - [@National_Institutes_of_Health_undated-it](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html)
-    - [@GilmoreAdolph2017](https://doi.org/10.1038/s41562-017-0128)
-    - [@Meyer2018-vk](https://doi.org/10.1177/2515245917747656)
-- [Assignment]{.green_assigned}
+    - (Optional) [@GilmoreAdolph2017](https://doi.org/10.1038/s41562-017-0128)
+    - (Optional) [@Meyer2018-vk](https://doi.org/10.1177/2515245917747656)
+    - (Optional) [@National_Institutes_of_Health_undated-it](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-013.html)
+- [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/data-sharing.html)
+- [Assignment distributed]{.green_assigned}
     - [Exercise 05: Data and materials sharing](#ex_data_sharing)
 
 ---
@@ -308,7 +311,7 @@
 - Read
     - [@Kathawalla2021-tk](https://doi.org/10.1525/collabra.18684)
     - [@Cruwell2019-nz](https://doi.org/10.1027/2151-2604/a000387)
-- [Due]{.orange_due}
+- [Assignment Due]{.orange_due}
     - [Exercise 05: Data and materials sharing](#ex_data_sharing)
 
 ---
