@@ -290,6 +290,8 @@
 - [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/data-sharing.html)
 - [Assignment distributed]{.green_assigned}
     - [Exercise 05: Data and materials sharing](#ex_data_sharing)
+- [Final project survey]{.green_assigned}
+    - Please complete the [final project survey](https://forms.gle/XWFYHcnb3MAV1u4H8).
 
 ---
 
