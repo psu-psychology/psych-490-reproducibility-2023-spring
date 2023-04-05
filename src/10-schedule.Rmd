@@ -335,10 +335,12 @@
 ### Tuesday, April 25 {-}
 
 - Project presentations
+- [Schedule](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/presentations.html#presentations-day-1)
 
 ### Thursday, April 27 {-}
 
 - Project presentations
+- [Schedule](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/presentations.html#presentations-day-2)
 
 ---
     
