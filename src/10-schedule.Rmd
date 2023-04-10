@@ -306,6 +306,7 @@
 - Explore
     - [protocols.io](https://www.protocols.io/)
     - [Journal of Visualized Experiments (JOVE)](https://www.jove.com/)
+- [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/sharing-materials-code-protocols.html)
 
 ### Thursday, April 13 {-}
 
