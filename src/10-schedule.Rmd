@@ -316,6 +316,7 @@
     - [@Cruwell2019-nz](https://doi.org/10.1027/2151-2604/a000387)
 - [Assignment Due]{.orange_due}
     - [Exercise 05: Data and materials sharing](#ex_data_sharing)
+- [Class notes](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring-notes/open-scienc-tools.html)
 
 ---
 
@@ -323,11 +324,11 @@
 
 ### Tuesday, April 18 {-}
 
-- Open science tools II
+- In-class final project work day
 
 ### Thursday, April 20 {-}
 
-- Project work day
+- Project work day (on your own)
 
 ---
 
