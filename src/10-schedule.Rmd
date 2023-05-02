@@ -351,4 +351,4 @@
 ### Wednesday, May 3 {-}
 
 - [Due]{.orange_due}
-  - [Final project]{#final_project} write-ups due 5:00 PM.
+  - [Final project](#final_project) write-ups due 5:00 PM.
